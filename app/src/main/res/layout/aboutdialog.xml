@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	android:id="@+id/main_layout"
+  	xmlns:android="http://schemas.android.com/apk/res/android"
+  	android:layout_width="fill_parent"
+  	android:layout_height="fill_parent"
+  	android:orientation="vertical"
+  	android:padding="10dip"
+  	>
+<ScrollView
+
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:layout_weight="1"
+  android:padding="10dip">
+  <LinearLayout
+
+  	android:layout_width="fill_parent"
+  	android:layout_height="fill_parent"
+  	android:orientation="vertical"
+  	>
+  	
+   	<ImageView
+      	android:layout_width="wrap_content"
+      	android:layout_height="wrap_content"
+      	android:src="@drawable/ic_logo_wordjam"
+      	android:layout_gravity="center"
+      />
+
+   	<TextView
+   		android:id="@+id/version_no_str"
+      	android:layout_width="wrap_content"
+      	android:layout_height="wrap_content"
+      	android:textSize="@dimen/screen_subtitle_text_size"
+      	android:textColor="@color/text_color"
+      	android:layout_gravity="center"
+      />
+
+<View
+    	android:layout_width="fill_parent"
+    	android:layout_height="5dip"
+    	/>
+      <View
+      	android:id="@+id/rule_header"
+    	android:layout_width="fill_parent"
+    	android:layout_height="2dip"
+    	android:background="@color/rule"
+    	/>
+    <View
+    	android:layout_width="fill_parent"
+    	android:layout_height="5dip"
+    	/>
+     	<TextView
+      	android:layout_width="fill_parent"
+      	android:layout_height="wrap_content"
+      	android:textSize="@dimen/default_text_size"
+      	android:textStyle="italic"
+      	android:text="@string/rate_app_text"
+      	android:textColor="@color/text_color"
+      />
+     	    	<View
+    	android:layout_width="fill_parent"
+    	android:layout_height="5dip"
+    	/>
+    	
+        <View
+       android:id="@+id/rule_footer"
+    	android:layout_width="fill_parent"
+    	android:layout_height="2dip"
+    	android:background="@color/rule"
+    	/>
+    	 <LinearLayout
+  	android:layout_width="fill_parent"
+  	android:layout_height="fill_parent"
+  	android:orientation="horizontal"
+  	android:gravity="center"
+  	android:padding="10dip"
+  	>
+  	
+ 
+    	<ImageButton
+    	android:id="@+id/rate_app_button"
+    	android:background="@color/transparent"
+    	android:src="@drawable/rate_button"
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:layout_weight="0"
+    	/>
+    	
+    		<ImageButton
+    	android:id="@+id/feedback_button"
+    	android:background="@color/transparent"
+    	android:src="@drawable/feedback_button"
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:layout_weight="0"
+    	/>
+    		
+    				<ImageButton
+    	android:id="@+id/facebook_button"
+    	android:background="@color/transparent"
+    	android:src="@drawable/facebook_button"
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:layout_weight="0"
+    	/>
+    		<ImageButton
+    	android:id="@+id/twitter_button"
+    	android:background="@color/transparent"
+    	android:src="@drawable/twitter_button"
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:layout_weight="0"
+    	/>
+    	
+      </LinearLayout>
+    	 <View
+    	android:layout_width="fill_parent"
+    	android:layout_height="5dip"
+    	/>
+    	     <View
+      	android:id="@+id/rule_header2"
+    	android:layout_width="fill_parent"
+    	android:layout_height="2dip"
+    	android:background="@color/rule"
+    	/>
+    	<View
+    	android:layout_width="fill_parent"
+    	android:layout_height="5dip"
+    	/>
+   		<TextView
+      	android:layout_width="fill_parent"
+      	android:layout_height="wrap_content"
+      	android:textSize="@dimen/default_text_size"
+      	android:text="@string/copyright_text"
+      	android:textColor="@color/text_color"
+      />
+      
+      <View
+    	android:layout_width="fill_parent"
+    	android:layout_height="5dip"
+    	/>
+         		<TextView
+      	android:layout_width="fill_parent"
+      	android:layout_height="wrap_content"
+      	android:textSize="@dimen/default_text_size"
+      	android:text="@string/wordnet_copyright_text"
+      	android:textColor="@color/text_color"
+      />
+      <View
+    	android:layout_width="fill_parent"
+    	android:layout_height="5dip"
+    	/>
+      <TextView
+      	android:layout_width="fill_parent"
+      	android:layout_height="wrap_content"
+      	android:textSize="@dimen/default_text_size"
+      	android:text="@string/wordnet_copyright_text_main"
+      	android:textColor="@color/text_color"
+      />
+      <View
+    	android:layout_width="fill_parent"
+    	android:layout_height="5dip"
+    	/>
+      <TextView
+      	android:layout_width="fill_parent"
+      	android:layout_height="wrap_content"
+      	android:textSize="@dimen/default_text_size"
+      	android:text="@string/apache_text"
+      	android:textColor="@color/text_color"
+      />
+      <View
+    	android:layout_width="fill_parent"
+    	android:layout_height="5dip"
+    	/>
+       <View
+       android:id="@+id/rule_footer"
+    	android:layout_width="fill_parent"
+    	android:layout_height="2dip"
+    	android:background="@color/rule"
+    	/>
+
+	</LinearLayout>
+</ScrollView>
+     <View
+    	android:layout_width="fill_parent"
+    	android:layout_height="5dip"
+    	/>
+    	
+    	<ImageButton
+    	android:id="@+id/back_button"
+    	android:src="@drawable/test2"
+    	android:layout_height="wrap_content"
+    	android:layout_width="wrap_content"
+    	android:layout_gravity="center"
+        android:background="@color/transparent"
+        ></ImageButton>
+</LinearLayout>

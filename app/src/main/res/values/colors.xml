@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+   
+   <color name="background">#FFFF9900</color>
+   <color name="game_background_color">#FFFF9900</color>
+   <color name="black">#FF000000</color>
+   <color name="rule">#FFFF0000</color>
+   <color name="testheader">#efefefff</color>
+   <color name="red">#FFFF0000</color>
+   <color name="green">#FF00FF00</color>
+   <color name="blue">#FF0000FF</color>
+   <color name="orange">#FFFF9900</color>
+   <color name="white">#FFFFFFFF</color>
+   <color name="lightorange">#FFFFCC00</color>
+   <color name="rightmatch">#FF00FF00</color>
+   <color name="wrongmatch">#FFFF0000</color>
+   <color name="transparent">#00000000</color>
+   <color name="gray_translucent1">#25000000</color>
+   <color name="text_color">#FF000000</color>
+   <color name="header_text_color">#FF000000</color>
+   <color name="art_color">#FFFF0000</color>
+   <color name="given_text_color">#FF000000</color>
+   <color name="choice_button_color">#FFFFFF00</color>
+   <color name="choice_button_text_color">#FF000000</color>
+   <color name="choice_button_color_mul">#FFFFFF00</color>
+   <color name="choice_button_color_add">#FF000000</color>
+   <color name="stop_button_color_mul">#FFFF0000</color>
+   <color name="stop_button_color_add">#FF000000</color>
+   <color name="hint_button_color_mul">#FF0000FF</color>
+   <color name="hint_button_color_add">#FF000000</color>
+   <color name="stop_text_color">#FFFFFFFF</color>
+   <color name="hint_text_color">#FFFFFFFF</color>
+   <color name="choice_button_correct_color_mul">#FF00FF00</color>
+   <color name="choice_button_correct_color_add">#FF000000</color>
+   <color name="choice_button_incorrect_color_mul">#FFFF0000</color>
+   <color name="choice_button_incorrect_color_add">#FF000000</color>
+   <color name="word_button_color_mul">#FFFFFF00</color>
+   <color name="word_button_color_add">#FFFFFF00</color>
+   <color name="meaning_button_color_mul">#FFFFFF00</color>
+   <color name="meaning_button_color_add">#FFFFFF00</color>
+   <color name="hangman_pod_color">#FF000000</color>
+   <color name="hangman_color">#FFCC0000</color>
+   <color name="hangman_letters_color">#FF990000</color>
+   <color name="text_color_goal">#FF0000FF</color>
+   <color name="match_words_button_color">#FFFFFF66</color>
+   <color name="match_words_line_color">#FFFF6600</color>
+   <color name="background_sunset_orange">#FFFF9900</color>
+   <color name="test_pass_background_color">#FF009933</color>
+   <color name="gray1">#FF181818</color>
+   <color name="gray2">#FF282828</color>
+   
+   <!-- Game View -->
+   <color name="points_text_color">#FF0000FF</color>
+   <color name="time_text_color">#FF006600</color>
+   
+   <!-- Level Selection -->
+   <color name="level1_button_normal_gradient_background_color1">#B8E68A</color>
+   <color name="level1_button_normal_gradient_background_color2">#D6FFAD</color>
+   <color name="level1_button_normal_stroke_color">#6BB224</color>
+   <color name="level1_button_pressed_gradient_background_color1">#6BB224</color>
+   <color name="level1_button_pressed_gradient_background_color2">#ADFF5C</color>
+   <color name="level1_button_pressed_stroke_color">#6BB224</color>
+   
+   <color name="level2_button_normal_gradient_background_color1">#FFFF66</color>
+   <color name="level2_button_normal_gradient_background_color2">#FFFF94</color>
+   <color name="level2_button_normal_stroke_color">#E6E600</color>
+   <color name="level2_button_pressed_gradient_background_color1">#E6E600</color>
+   <color name="level2_button_pressed_gradient_background_color2">#FFFF00</color>
+   <color name="level2_button_pressed_stroke_color">#E6E600</color>
+   
+   <color name="level3_button_normal_gradient_background_color1">#FFCC00</color>
+   <color name="level3_button_normal_gradient_background_color2">#FFDB4D</color>
+   <color name="level3_button_normal_stroke_color">#FF9900</color>
+   <color name="level3_button_pressed_gradient_background_color1">#FF9900</color>
+   <color name="level3_button_pressed_gradient_background_color2">#FFB84D</color>
+   <color name="level3_button_pressed_stroke_color">#FF9900</color>
+   
+   <color name="level4_button_normal_gradient_background_color1">#FFCCFF</color>
+   <color name="level4_button_normal_gradient_background_color2">#FFDBFF</color>
+   <color name="level4_button_normal_stroke_color">#FF99FF</color>
+   <color name="level4_button_pressed_gradient_background_color1">#FF99FF</color>
+   <color name="level4_button_pressed_gradient_background_color2">#FFB8FF</color>
+   <color name="level4_button_pressed_stroke_color">#FF99FF</color>
+   
+   <color name="level5_button_normal_gradient_background_color1">#FF66FF</color>
+   <color name="level5_button_normal_gradient_background_color2">#FFA3FF</color>
+   <color name="level5_button_normal_stroke_color">#FF33CC</color>
+   <color name="level5_button_pressed_gradient_background_color1">#FF33CC</color>
+   <color name="level5_button_pressed_gradient_background_color2">#FF70DB</color>
+   <color name="level5_button_pressed_stroke_color">#FF33CC</color>
+   
+   <color name="level6_button_normal_gradient_background_color1">#FF3399</color>
+   <color name="level6_button_normal_gradient_background_color2">#FF70B8</color>
+   <color name="level6_button_normal_stroke_color">#FF0066</color>
+   <color name="level6_button_pressed_gradient_background_color1">#FF0066</color>
+   <color name="level6_button_pressed_gradient_background_color2">#FF4D94</color>
+   <color name="level6_button_pressed_stroke_color">#FF0066</color>
+   
+   <!-- Practice Level Selection -->
+   <color name="practice_level1_button_normal_gradient_background_color1">#B8E68A</color>
+   <color name="practice_level1_button_normal_gradient_background_color2">#D6FFAD</color>
+   <color name="practice_level1_button_normal_stroke_color">#6BB224</color>
+   <color name="practice_level1_button_pressed_gradient_background_color1">#6BB224</color>
+   <color name="practice_level1_button_pressed_gradient_background_color2">#ADFF5C</color>
+   <color name="practice_level1_button_pressed_stroke_color">#6BB224</color>
+   
+   <color name="practice_level2_button_normal_gradient_background_color1">#66CCFF</color>
+   <color name="practice_level2_button_normal_gradient_background_color2">#94DBFF</color>
+   <color name="practice_level2_button_normal_stroke_color">#3399FF</color>
+   <color name="practice_level2_button_pressed_gradient_background_color1">#3399FF</color>
+   <color name="practice_level2_button_pressed_gradient_background_color2">#5CADFF</color>
+   <color name="practice_level2_button_pressed_stroke_color">#3399FF</color>
+   
+   <color name="practice_level3_button_normal_gradient_background_color1">#FFCC00</color>
+   <color name="practice_level3_button_normal_gradient_background_color2">#FFDB4D</color>
+   <color name="practice_level3_button_normal_stroke_color">#FF9933</color>
+   <color name="practice_level3_button_pressed_gradient_background_color1">#FF9933</color>
+   <color name="practice_level3_button_pressed_gradient_background_color2">#FFAD5C</color>
+   <color name="practice_level3_button_pressed_stroke_color">#FF9933</color>
+   
+   <color name="practice_level4_button_normal_gradient_background_color1">#FF6262</color>
+   <color name="practice_level4_button_normal_gradient_background_color2">#FF9696</color>
+   <color name="practice_level4_button_normal_stroke_color">#E64848</color>
+   <color name="practice_level4_button_pressed_gradient_background_color1">#E64848</color>
+   <color name="practice_level4_button_pressed_gradient_background_color2">#FF6262</color>
+   <color name="practice_level4_button_pressed_stroke_color">#E64848</color>
+   
+   <!-- Game View -->
+   <color name="game_header_text">#FF585858</color>
+   <!--  Theme colors -->
+   
+   <!--  background color of each activity  -->
+   <color name="background_1">#FFFF9900</color>
+   <color name="background_2">#FF00CCFF</color>
+   <color name="background_3">#FF99FF33</color>
+   <color name="background_4">#FFE066E0</color>
+   <color name="background_5">#FFFFFFCC</color>
+   
+   <!--  text color in all controls -->
+   <color name="text_1">#FF000000</color>
+   <color name="text_2">#FF000000</color>
+   <color name="text_3">#FF000000</color>
+   <color name="text_4">#FF000000</color>
+   <color name="text_5">#FF000000</color>
+   
+   <!--  color of rules on top/bottom of test screens -->
+   <color name="line_heading_1">#FFFF0000</color>
+   <color name="line_heading_2">#FF000099</color>
+   <color name="line_heading_3">#FF006600</color>
+   <color name="line_heading_4">#FF660066</color>
+   <color name="line_heading_5">#FF997A3D</color>
+   
+   <!--  color of buttons in match words test  -->
+   <color name="match_words_button_1">#FFFFFF00</color>
+   <color name="match_words_found_button_1">#FFB2B200</color>
+   <color name="match_words_button_2">#FF99FFFF</color>
+   <color name="match_words_found_button_2">#FF6BB2B2</color>
+   <color name="match_words_button_3">#FFC6FFAA</color>
+   <color name="match_words_found_button_3">#FF8BB277</color>
+   <color name="match_words_button_4">#FFFFB2FF</color>
+   <color name="match_words_found_button_4">#FFB27DB2</color>
+   <color name="match_words_button_5">#FFFFD175</color>
+   <color name="match_words_found_button_5">#FFCC7A29</color>
+   
+   <!--  color of lines in match words test -->
+   <color name="match_words_line_1">#FFFF6600</color>
+   <color name="match_words_line_2">#FF0066FF</color>
+   <color name="match_words_line_3">#FF009900</color>
+   <color name="match_words_line_4">#FF990099</color>
+   <color name="match_words_line_5">#FF80804C</color>
+   
+   <!--  color of entities in the hangman test -->
+   <color name="hangman_letters_1">#FF990000</color>
+   <color name="hangman_letters_2">#FF000099</color>
+   <color name="hangman_letters_3">#FF003300</color>
+   <color name="hangman_letters_4">#FF660066</color>
+   <color name="hangman_letters_5">#FF4C4C2E</color>
+   
+   <color name="hangman_dashes_1">#FFFFFFFF</color>
+   <color name="hangman_dashes_2">#FFFFFFFF</color>
+   <color name="hangman_dashes_3">#FFFFFFFF</color>
+   <color name="hangman_dashes_4">#FFFFFFFF</color>
+   <color name="hangman_dashes_5">#FF4C4C2E</color>
+   
+   <color name="hangman_pod_1">#FF000000</color>
+   <color name="hangman_pod_2">#FF000000</color>
+   <color name="hangman_pod_3">#FF000000</color>
+   <color name="hangman_pod_4">#FF000000</color>
+   <color name="hangman_pod_5">#FF000000</color>
+   
+   <color name="hangman_1">#FFFF6600</color>
+   <color name="hangman_2">#FF0066FF</color>
+   <color name="hangman_3">#FF009900</color>
+   <color name="hangman_4">#FF6B006B</color>
+   <color name="hangman_5">#FF4C4C2E</color>
+   
+   <!--  colors in crossword test -->
+   <color name="crossword_hit_cell_1">#FFFF0000</color>
+   <color name="crossword_hit_cell_2">#FF0000FF</color>
+   <color name="crossword_hit_cell_3">#FF009900</color>
+   <color name="crossword_hit_cell_4">#FF8A008A</color>
+   <color name="crossword_hit_cell_5">#FFFFD4A9</color>
+   
+   <color name="crossword_letter_1">#FFFF0000</color>
+   <color name="crossword_letter_2">#FF0000FF</color>
+   <color name="crossword_letter_3">#FF009900</color>
+   <color name="crossword_letter_4">#FF8A008A</color>
+   <color name="crossword_letter_5">#FFA36221</color>
+
+	<!-- word search -->
+	<color name="word_hover_1">#FFFF0000</color>
+	<color name="word_hover_2">#FF3333CC</color>
+	<color name="word_hover_3">#FF006600</color>
+	<color name="word_hover_4">#FF660066</color>
+	<color name="word_hover_5">#FF80804C</color>
+	
+	<color name="wordsearch_loop_fill_1">#22FF0000</color>
+	<color name="wordsearch_loop_fill_2">#22000099</color>
+	<color name="wordsearch_loop_fill_3">#22006600</color>
+	<color name="wordsearch_loop_fill_4">#22660066</color>
+	<color name="wordsearch_loop_fill_5">#2280804C</color>
+	
+		<color name="wordsearch_loop_border_1">#77FF0000</color>
+	<color name="wordsearch_loop_border_2">#770000FF</color>
+	<color name="wordsearch_loop_border_3">#7700FF00</color>
+	<color name="wordsearch_loop_border_4">#77660066</color>
+	<color name="wordsearch_loop_border_5">#774C4C2E</color>
+	
+	<color name="wordsearch_overlay_bg_1">#AA000000</color>
+	<color name="wordsearch_overlay_bg_2">#AA000000</color>
+	<color name="wordsearch_overlay_bg_3">#AA000000</color>
+	<color name="wordsearch_overlay_bg_4">#AA000000</color>
+	<color name="wordsearch_overlay_bg_5">#AA000000</color>
+	
+	<color name="wordsearch_overlay_text_1">#FFFFFFFF</color>
+	<color name="wordsearch_overlay_text_2">#FFFFFFFF</color>
+	<color name="wordsearch_overlay_text_3">#FFFFFFFF</color>
+	<color name="wordsearch_overlay_text_4">#FFFFFFFF</color>
+	<color name="wordsearch_overlay_text_5">#FFFFFFFF</color>
+</resources>

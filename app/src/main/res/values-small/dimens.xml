@@ -1,0 +1,33 @@
+<resources>
+
+<dimen name="screen_title_text_size">21sp</dimen>
+<dimen name="screen_subtitle_text_size">15sp</dimen>
+<dimen name="ui_button_text_size">15sp</dimen>
+<dimen name="choice_button_text_size">15sp</dimen>
+<dimen name="game_heading_text_size">12sp</dimen>
+<dimen name="game_points_text_size">15sp</dimen>
+<dimen name="game_title_text_size">15sp</dimen>
+<dimen name="game_time_text_size">15sp</dimen>
+<dimen name="game_given_text_size">15sp</dimen>
+<dimen name="crossword_hint_heading_text_size">15sp</dimen>
+<dimen name="crossword_hint_text_size">12sp</dimen>
+<dimen name="default_text_size">12sp</dimen>
+<dimen name="word_search_list_heading_text_size">15sp</dimen>
+<dimen name="word_search_list_text_size">12sp</dimen>
+<dimen name="match_words_button_text_size_word">15sp</dimen>
+<dimen name="match_words_button_text_size_meaning">12sp</dimen>
+
+<!-- Practice Summary Dialog -->
+<dimen name="game_summary_number_text_size">30sp</dimen>
+<dimen name="game_summary_description_text_size">15sp</dimen>
+
+<!-- Words List -->
+<dimen name="word_type_text_size">15sp</dimen>
+<dimen name="word_list_text_size">12sp</dimen>
+
+<!-- Dialogs -->
+<dimen name="dialog_title_text_size">18sp</dimen>
+<dimen name="dialog_description_text_size">15sp</dimen>
+<dimen name="dialog_continue_text_size">12sp</dimen>
+
+</resources>

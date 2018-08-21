@@ -1,0 +1,48 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/game_recall_words_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    android:gravity="center_vertical"
+    android:orientation="vertical" >
+    
+	<TextView
+	    android:id="@+id/given_text"
+	    android:layout_width="wrap_content"
+	    android:layout_height="0dip"
+	    android:layout_gravity="center"
+	    android:gravity="center"
+	    android:layout_marginBottom="25dip"
+	    android:layout_weight="1"
+	    android:textSize="@dimen/game_given_text_size"
+	    android:textStyle="italic"
+	    android:paddingLeft="20dip"
+	    android:paddingRight="20dip"
+	    android:textColor="@color/given_text_color" />
+
+	<Button
+	    android:id="@+id/choice1_button"
+	    android:layout_width="fill_parent"
+	    android:textSize="@dimen/choice_button_text_size"
+	    android:layout_height="wrap_content" />
+
+	<Button
+	    android:id="@+id/choice2_button"
+	    android:layout_width="fill_parent"
+	    android:textSize="@dimen/choice_button_text_size"
+	    android:layout_height="wrap_content" />
+
+	<Button
+	    android:id="@+id/choice3_button"
+	    android:layout_width="fill_parent"
+	    android:textSize="@dimen/choice_button_text_size"
+	    android:layout_height="wrap_content" />
+
+	<Button
+	    android:id="@+id/choice4_button"
+	    android:layout_width="fill_parent"
+	    android:textSize="@dimen/choice_button_text_size"
+	    android:layout_height="wrap_content" />
+	    
+</LinearLayout>
+ 

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads"
+    android:id="@+id/main_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_gravity="center_vertical"
+    android:background="@color/background"
+    android:orientation="vertical"
+    android:padding="5dip" >
+    
+           	<ImageView
+      	android:layout_width="wrap_content"
+      	android:layout_height="wrap_content"
+      	android:layout_gravity="center"
+      	android:src="@drawable/ic_logo_wordjam"
+      />
+       <View
+    	android:layout_width="fill_parent"
+    	android:layout_height="5dip"
+    	/>
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="@string/exit_screen_title"
+			android:layout_gravity="center"
+			android:textColor="@color/black"
+           />
+       
+<LinearLayout 
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center"
+    android:layout_weight="1"
+    >
+
+	<com.google.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="0"
+        ads:adSize="IAB_MRECT"
+        ads:adUnitId="a15281ef463ae86"
+        ads:loadAdOnCreate="false"
+        ads:testDevices="FDF2AAD6332CD4B74A3307FB5A05FF79"
+        android:background="@color/black" />
+
+       <View
+    	android:layout_width="fill_parent"
+    	android:layout_height="20dip"
+    	/>
+    	
+        
+</LinearLayout>
+
+<RelativeLayout
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    >
+    	<Button
+    	android:id="@+id/feedback_button"
+    	android:layout_height="wrap_content"
+    	android:layout_width="wrap_content"
+    	android:drawableLeft="@drawable/feedback"
+        ></Button>
+    	
+    	<View
+    	    android:id="@+id/vsep1"
+    	    android:layout_height="10dip"
+    	    android:layout_width="10dip"
+    	    android:layout_toRightOf="@id/feedback_button"
+    	    />
+    	
+    	   	<Button
+    	android:id="@+id/rate_button"
+    	android:layout_height="wrap_content"
+    	android:layout_width="wrap_content"
+    	android:drawableLeft="@drawable/rate"
+        android:layout_toRightOf="@id/vsep1"
+        ></Button>
+    	
+    	   	  	<View
+    	    android:id="@+id/vsep2"
+    	    android:layout_height="10dip"
+    	    android:layout_width="10dip"
+    	     android:layout_toRightOf="@id/rate_button"
+    	    />
+    	   	  	
+    	<Button
+    	android:id="@+id/reenter_game_button"
+    	android:src="@drawable/about_button"
+    	android:layout_height="wrap_content"
+    	android:layout_width="wrap_content"
+    	android:drawableLeft="@drawable/ic_launcher_wordjam"
+         android:layout_toRightOf="@id/vsep2"
+        ></Button>
+    	
+    	    	   	  	<View
+    	    android:id="@+id/vsep3"
+    	    android:layout_height="10dip"
+    	    android:layout_width="10dip"
+    	     android:layout_toRightOf="@id/reenter_game_button"
+    	    />
+    	   	  	
+    	<Button
+    	android:id="@+id/exit_button"
+    	android:src="@drawable/exit"
+    	android:layout_height="wrap_content"
+    	android:layout_width="wrap_content"
+    	android:drawableLeft="@drawable/exit"
+         android:layout_toRightOf="@id/vsep3"
+        ></Button>
+    
+    </RelativeLayout>
+</LinearLayout>

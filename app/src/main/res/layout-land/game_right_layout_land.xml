@@ -1,0 +1,96 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/game_right_layout_land"
+    android:layout_width="wrap_content"
+    android:layout_height="fill_parent"
+    android:layout_weight="0"
+    android:orientation="horizontal" >
+
+   	<View
+   	    android:id="@+id/rule_footer"
+   	    android:layout_width="2dip"
+   	    android:layout_height="fill_parent"
+   	    android:background="@color/rule" />
+    	
+    <LinearLayout
+        android:id="@+id/game_button_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+  		<ImageButton
+  		    android:id="@+id/stop_button"
+  		    android:contentDescription="@string/stop_game_text"
+  		    android:layout_width="wrap_content"
+  		    android:layout_height="0dip"
+  		    android:layout_weight="1"
+  		    android:background="@color/transparent"
+  		    android:src="@drawable/stop_button" />
+        
+        <ImageButton
+            android:id="@+id/pause_button"
+            android:contentDescription="@string/pause_game_text"
+            android:layout_width="wrap_content"
+            android:layout_height="0dip"
+            android:layout_weight="1"
+            android:background="@color/transparent"
+            android:src="@drawable/pause_button" />
+         
+        <ImageButton
+            android:id="@+id/giveup_button"
+            android:contentDescription="@string/giveup_game_text"
+            android:layout_width="wrap_content"
+            android:layout_height="0dip"
+            android:layout_weight="1"
+            android:background="@color/transparent"
+            android:src="@drawable/reveal_button" />
+ 
+      	<ImageButton
+           android:id="@+id/hint_button"
+           android:contentDescription="@string/use_hint_text"
+           android:layout_width="wrap_content"
+           android:layout_height="0dip"
+           android:layout_weight="1"
+           android:background="@color/transparent"
+           android:src="@drawable/hint_button" />
+      	
+      	<ImageButton
+           android:id="@+id/share_button"
+           android:contentDescription="@string/share_text"
+           android:layout_width="wrap_content"
+           android:layout_height="0dip"
+           android:layout_weight="1"
+           android:background="@color/transparent" 
+           android:src="@drawable/facebook_button"
+           />
+      	  	       	
+        
+   		<ImageButton
+   		    android:id="@+id/help_button"
+   		    android:contentDescription="@string/help_game_text"
+   		    android:layout_width="wrap_content"
+   		    android:layout_height="0dip"
+   		    android:layout_weight="1"
+   		    android:background="@color/transparent"
+   		    android:src="@drawable/help_button" />
+        
+      	<ImageButton
+      	    android:id="@+id/previous_button"
+      	    android:contentDescription="@string/previous_game_text"
+      	    android:layout_width="wrap_content"
+      	    android:layout_height="0dip"
+      	    android:layout_weight="1"
+      	    android:background="@color/transparent"
+      	    android:src="@drawable/previous_button" />
+   
+        <ImageButton
+            android:id="@+id/next_button"
+            android:contentDescription="@string/next_game_text"
+            android:layout_width="wrap_content"
+            android:layout_height="0dip"
+            android:layout_weight="1"
+            android:background="@color/transparent"
+            android:src="@drawable/next_button" />
+   
+	</LinearLayout>
+        
+</LinearLayout>

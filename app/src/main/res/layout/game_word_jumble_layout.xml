@@ -1,0 +1,62 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    android:orientation="vertical" >
+    
+   	    <TextView
+    	android:id="@+id/given_text"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="25dip"
+        android:textColor="@color/given_text_color"
+        android:textSize="@dimen/game_given_text_size" />
+        
+
+   <View
+    	android:layout_width="fill_parent"
+    	android:layout_height="20dip"
+    	/>
+   
+  <LinearLayout
+  android:id="@+id/jumbled_layout"
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="0px"
+  android:layout_weight="0.6"
+  android:background="@drawable/rounded_corner"
+  >
+  <TextView
+    	android:id="@+id/jumbled_heading"
+    	android:text="@string/jumbled_heading"
+        android:gravity="left"
+        android:textColor="@color/header_text_color"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="@dimen/game_title_text_size" />
+  </LinearLayout>
+ 	    <View
+    	android:layout_width="fill_parent"
+    	android:layout_height="20dip"
+    	/>
+ <LinearLayout
+  android:id="@+id/ordered_layout"
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="0px"
+  android:layout_weight="0.6"
+  android:background="@drawable/rounded_corner"
+  >
+      <TextView
+    	android:id="@+id/unjumbled_heading"
+    	android:text="@string/unjumbled_heading"
+        android:gravity="left"
+        android:textColor="@color/header_text_color"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="@dimen/game_title_text_size" />
+  </LinearLayout>
+  </LinearLayout>

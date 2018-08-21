@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_gravity="center_vertical"
+    android:background="@color/background"
+    android:orientation="vertical"
+    android:padding="30dip" >
+
+<LinearLayout 
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_centerInParent="true"
+    >
+       	 <TextView
+  	 	android:id="@+id/activity_practice_level_selection_title_text_view"
+      	android:layout_width="wrap_content"
+      	android:layout_height="wrap_content"
+      	android:textSize="@dimen/screen_title_text_size"
+      	android:layout_gravity="center"
+      	android:textColor="@color/text_color"
+      	android:text="@string/practice_levels_title_text"
+      />
+       	 
+       <View
+    	android:layout_width="fill_parent"
+    	android:layout_height="10dip"
+    	/>
+       
+       <LinearLayout
+           android:layout_width="fill_parent"
+           android:layout_height="wrap_content"
+           android:orientation="vertical"
+           >
+           <LinearLayout
+		       android:layout_width="fill_parent"
+               android:layout_height="wrap_content"
+               android:orientation="horizontal"
+               >
+                 	<Button
+        android:id="@+id/easy_button"
+        android:layout_width="0dip"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:text="@string/practice_type_easy" 
+        android:textSize="@dimen/ui_button_text_size"
+        android:background="@drawable/practice_level1_custom_button"
+        android:drawableLeft="@drawable/smiley1"
+        />
+
+   <Button
+    	android:id="@+id/medium_button"
+    	android:layout_width="0dip"
+    	android:layout_height="fill_parent"
+    	android:layout_weight="1"
+    	android:text="@string/practice_type_medium"
+    	android:textSize="@dimen/ui_button_text_size"
+    	android:background="@drawable/practice_level2_custom_button"
+    	android:drawableLeft="@drawable/smiley2"
+    	 />
+  
+    		
+    	
+				</LinearLayout>
+				     
+				           <LinearLayout
+		       android:layout_width="fill_parent"
+               android:layout_height="wrap_content"
+               android:orientation="horizontal"
+               >
+	
+    
+    <Button
+    	android:id="@+id/hard_button"
+    	android:layout_width="0dip"
+    	android:layout_height="fill_parent"
+    	android:layout_weight="1"
+    	android:text="@string/practice_type_hard"
+    	android:textSize="@dimen/ui_button_text_size"
+    	android:background="@drawable/practice_level3_custom_button"
+    	android:drawableLeft="@drawable/smiley3"
+    	 />
+    
+         
+    	           	    <Button
+    	android:id="@+id/very_hard_button"
+    	android:layout_width="0dip"
+    	android:layout_height="fill_parent"
+    	android:layout_weight="1"
+    	android:text="@string/practice_type_very_hard"
+    	android:textSize="@dimen/ui_button_text_size"
+    	android:background="@drawable/practice_level4_custom_button"
+    	android:drawableLeft="@drawable/smiley4"
+    	 />
+				</LinearLayout>
+				</LinearLayout>
+
+       <View
+    	android:layout_width="fill_parent"
+    	android:layout_height="20dip"
+    	/>
+       
+    	<ImageButton
+    	android:id="@+id/back_button"
+    	android:src="@drawable/test2"
+    	android:layout_height="wrap_content"
+    	android:layout_width="wrap_content"
+    	android:layout_gravity="center"
+        android:background="@color/transparent"
+        ></ImageButton>
+        
+</LinearLayout>
+</RelativeLayout>

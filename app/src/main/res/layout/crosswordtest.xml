@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/main_layout"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:padding="10dip"
+    android:background="@color/background"
+>
+        	    <TextView
+    	android:id="@+id/test_heading"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:textColor="@color/header_text_color"
+        android:textAppearance="@style/testHeading"
+        android:textSize="20sp" />
+        
+    	    <View
+    	    android:id="@+id/rule_header"
+    	android:layout_width="fill_parent"
+    	android:layout_height="2dip"
+    	android:background="@color/rule"
+    	/>
+    	    	    <View
+    	android:layout_width="fill_parent"
+    	android:layout_height="10dip"
+    	/>
+    	
+
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  >
+  
+
+  <com.ezeeideas.wordjam.CrosswordPanel
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:id="@+id/crosswordpanel"
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="0px"
+  android:layout_alignParentTop="true"
+  android:layout_weight="0.70"
+  >
+  
+  </com.ezeeideas.wordjam.CrosswordPanel>
+  
+  <LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="horizontal"
+  android:layout_width="fill_parent"
+  android:layout_height="0px"
+  android:layout_alignParentBottom="true"
+  android:layout_below="@id/crosswordpanel"
+  android:layout_weight="0.30"
+  >
+  	<LinearLayout
+  	xmlns:android="http://schemas.android.com/apk/res/android"
+  	android:orientation="vertical"
+  	android:layout_width="0px"
+  	android:layout_height="fill_parent"
+  	android:layout_weight="0.5">
+  
+  		<TextView
+  		android:id="@+id/across_hints_text"
+ 		android:layout_width="wrap_content"
+ 		android:layout_height="wrap_content"
+ 		android:text="@string/across_hints"
+ 		android:textColor="@color/text_color"
+ 		/>
+  <ListView
+  android:id="@+id/across_hints"
+  android:layout_height="fill_parent"
+  android:layout_width="fill_parent"
+  android:cacheColorHint="@color/transparent"
+  />
+  </LinearLayout>
+  	<LinearLayout
+  	xmlns:android="http://schemas.android.com/apk/res/android"
+  	android:orientation="vertical"
+  	android:layout_width="0px"
+  	android:layout_height="fill_parent"
+  	android:layout_weight="0.5">
+  
+  		<TextView
+  		android:id="@+id/down_hints_text"
+ 		android:layout_width="wrap_content"
+ 		android:layout_height="wrap_content"
+ 		android:text="@string/down_hints"
+ 		android:textColor="@color/text_color"
+ 		/>
+  <ListView
+  android:id="@+id/down_hints"
+  android:layout_height="fill_parent"
+  android:layout_width="fill_parent"
+  android:cacheColorHint="@color/transparent"
+  />
+  </LinearLayout>
+  </LinearLayout>
+
+  <View
+  android:id="@+id/rule_footer"
+    	android:layout_width="fill_parent"
+    	android:layout_height="2dip"
+    	android:background="@color/rule"
+    	/>
+        <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:stretchColumns="1">
+    <TableRow>
+   <ImageButton
+    	android:id="@+id/stop"
+    	android:src="@drawable/stop_button"
+    	android:layout_width="0dip"
+    	android:layout_height="wrap_content"
+    	android:layout_weight="1"
+        android:background="@color/transparent"
+        ></ImageButton>
+        
+        <ImageButton
+    	android:id="@+id/reveal"
+    	android:src="@drawable/reveal_button"
+    	android:layout_width="0dip"
+    	android:layout_height="wrap_content"
+    	android:layout_weight="1"
+        android:background="@color/transparent"
+        ></ImageButton>
+        
+                <ImageButton
+    	android:id="@+id/clear"
+    	android:src="@drawable/clear_button"
+    	android:layout_width="0dip"
+    	android:layout_height="wrap_content"
+    	android:layout_weight="1"
+        android:background="@color/transparent"
+        ></ImageButton>
+        
+           <ImageButton
+    	android:id="@+id/done"
+    	android:src="@drawable/test"
+    	android:layout_width="0dip"
+    	android:layout_height="wrap_content"
+    	android:layout_weight="1"
+        android:background="@color/transparent"
+        ></ImageButton>
+ 
+ <ImageButton
+    	android:id="@+id/hint"
+    	android:src="@drawable/hint_button"
+    	android:layout_width="0dip"
+    	android:layout_height="wrap_content"
+    	android:layout_weight="1"
+    	android:background="@color/transparent"
+        ></ImageButton>
+        
+     <ImageButton
+    	android:id="@+id/help"
+    	android:src="@drawable/help_button"
+    	android:layout_width="0dip"
+    	android:layout_height="wrap_content"
+    	android:layout_weight="1"
+    	android:background="@color/transparent"
+        ></ImageButton>
+        
+        
+
+
+        
+         <ImageButton
+    	android:id="@+id/next"
+    	android:src="@drawable/next_button"
+    	android:layout_width="0dip"
+    	android:layout_height="wrap_content"
+    	android:layout_weight="1"
+        android:background="@color/transparent"
+        ></ImageButton>
+        
+        </TableRow>
+        </TableLayout>
+    
+</LinearLayout>	  
+</LinearLayout>

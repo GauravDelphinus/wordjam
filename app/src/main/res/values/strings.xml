@@ -1,0 +1,382 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Versioning Related -->
+    <string name="app_name">Word Jam</string>
+    <string name="build_no">14</string>
+    <string name="version_no">2.2.0</string>
+    <string name="version_str">Version %1$s</string>
+    
+    <!-- Facebook -->
+    <string name="app_id">250781401741665</string>
+    
+    <!-- Share on Facebook -->
+    <string name="publish_on_facebook">Publish to Facebook Timeline</string>
+    <string name="facebook_publish_success">Posted to Facebook!</string>
+    <string name="facebook_publish_failure">There was a problem posting to Facebook, please try again later</string>
+    <string name="connecting_to_facebook_message">Posting...</string>
+
+    <!-- Word Types -->
+    <string name="word_type_verbs">Verbs</string>
+    <string name="word_type_adjectives">Adjectives</string>
+    <string name="word_type_people">People</string>
+    <string name="word_type_processes">Processes</string>
+    <string name="word_type_attributes">Attributes</string>
+    <string name="word_type_objects">Objects</string>
+
+    <!-- Main Screen -->
+    <string name="games_label">Games</string>
+    <string name="options_label">Options</string>
+    <string name="about_label">About</string>
+    <string name="words_label">Words</string>
+    <string name="copyright_label">(C) 2013 - Present</string>
+    <string name="company_label">Gaurav Jain (@gauravdelphinus)</string>
+        
+    <!-- Challenge Screen -->
+    <string name="play_label">Play</string>
+    <string name="practice_label">Practice</string>
+    <string name="lookup_label">Lookup</string>
+
+    <!-- Practice Levels -->
+    <string name="activity_practice_level_selection_subtitle_text">Practice Levels</string>
+    <string name="practice_type_easy">Very Easy</string>
+    <string name="practice_type_medium">Easy</string>
+    <string name="practice_type_hard">Hard</string>
+    <string name="practice_type_very_hard">Very Hard</string>
+    <string name="practice_levels_title_text">Word Difficulty</string>
+    
+    <string name="app_error_str">We\'re really sorry!  An error was encountered during initialization.  Possible cause could be that your device does not have enough disk space.  Please exit the application, and try launching it again to see if that fixes the issue.  If the issue persists, please do contact us at ezeeideas@gmail.com with details about your device and configuration and we will try out best to help resolve the issue.  Thanks.</string>
+    <string name="wordlist_title">Word List</string>
+    <string name="no_words">No Words</string>
+
+    <!-- Play Chooser -->
+    <string name="play_chooser_title_label">Challenges</string>
+    <string name="english_challenge_label">English Mega Challenge</string>
+    <string name="gre_challenge_label">GRE Cruncher</string>
+    <string name="sat_challenge_label">SAT Cracker</string>
+    <string name="kids_challenge_label">Kids Vocabulary Challenge</string>
+
+    <!-- Challenges/Plays -->
+    <string name="english_challenge_title_label">English Mega Challenge</string>
+    
+    <!-- Level Home -->
+    <string name="activity_level_home_subtitle_text">Level %1$d</string>
+    <string name="level_name">Level %1$d</string>
+    <string name="resume_game_button_label">Resume Previous Game</string>
+    <string name="new_game_button_label">Start New Game</string>
+    <string name="saved_games_button_label">View Saved Games</string>
+    <string name="points_summary_button_label">Points Summary</string>
+    
+    <!-- Game Selection -->
+    <string name="game_selection_title">Game Selection</string>
+    <string name="level_number_label">Level %1$d</string>
+    <string name="practice_type_label">Difficulty: %1$s</string>
+    <string name="game_selection_action_text_play">Select a game to play</string>
+    <string name="game_selection_action_text_practice">Select a game to practice</string>
+    <string name="recall_words_label">Recall Words</string>
+    <string name="match_words_label">Match Words</string>
+    <string name="hangman_label">Hang-man</string>
+    <string name="crossword_label">Cross-word</string>
+    <string name="word_jumble_label">Word Jumble</string>
+    <string name="word_search_label">Word Search</string>
+    
+    <!-- Game Names -->
+    <string name="recall_words_name">RECALL WORDS</string>
+    <string name="match_words_name">MATCH WORDS</string>
+    <string name="hangman_name">HANGMAN</string>
+    <string name="crossword_name">CROSSWORD</string>
+    <string name="word_jumble_name">WORD JUMBLE</string>
+    <string name="word_search_name">WORD SEARCH</string>
+
+    <!-- Level Selection -->
+    <string name="level_selection_heading">Levels</string>
+    <string name="level_selection_subtitle_text">Levels</string>
+    <string name="level_1_label">Level 1</string>
+    <string name="level_2_label">Level 2</string>
+    <string name="level_3_label">Level 3</string>
+    <string name="level_4_label">Level 4</string>
+    <string name="level_5_label">Level 5</string>
+    <string name="level_6_label">Level 6</string>
+
+    <!-- Game Selection -->
+    <string name="points_in_game">%1$d + Points</string>
+    
+    <!-- Game Titles -->
+    <string name="jumbletest_title">WORD JUMBLE</string>
+    <string name="wordmeaningtest_title">RECALL WORDS</string>
+    <string name="matchwordstest_title">MATCH WORDS</string>
+    <string name="hangmantest_title">HANGMAN</string>
+    <string name="crosswordtest_title">CROSSWORD</string>
+    <string name="wordsearchtest_title">WORD SEARCH</string>
+
+    <!-- Game Actions -->
+    <string name="stop_game_text">Stop Game</string>
+    <string name="pause_game_text">Pause Game</string>
+    <string name="giveup_game_text">Give Up Game</string>
+    <string name="use_hint_text">Use Hint</string>
+    <string name="share_game_text">Share Game</string>
+    <string name="previous_game_text">Previous Game</string>
+    <string name="next_game_text">Next Game</string>
+    <string name="help_game_text">Help</string>
+    <string name="share_text">Share Game</string>
+    
+    <!-- Game Related -->
+    <string name="game_header">%1$s, Level %2$d</string>
+    <string name="game_level_label">Level %1$d</string>
+    <string name="game_points_label">Pts: %1$d</string>
+    <string name="test_success">Right Answer!</string>
+    <string name="test_fail">Wrong answer! The correct answer is: %1$s</string>
+    <string name="testnumber">Puzzle No. %1$d</string>
+    <string name="currentscore">Current Score: %1$d / %2$d</string>
+    <string name="hangman_wrong_answer">Sorry, tough luck!  The answer is: %1$s</string>
+    <string name="across_hints">Across</string>
+    <string name="down_hints">Down</string>
+    <string name="keypad_title">Keypad</string>
+    <string name="game_heading">%1$s  #%2$d</string>
+    <string name="setup_game_progress_title"></string>
+    
+    <!-- Crossword -->
+    <string name="fill_horizontal_text">Fill Across</string>
+    <string name="fill_vertical_text">Fill Down</string>
+    <string name="close_keypad_text">Close Keypad</string>
+
+    <!-- About Screen -->
+    <string name="brought_to_you_by_text">EzeeIdeas.com, Brighter Ideas for a Brighter Life</string>
+    <string name="copyright_text">Copyright (C) 2013 - Present, Gaurav Jain (@gauravdelphinus).  All rights reserved.</string>
+    <string name="wordnet_copyright_text">WordNet database Copyright 2005 by Princeton University.  All rights reserved.</string>
+    <string name="wordnet_copyright_text_main">THIS SOFTWARE AND DATABASE IS PROVIDED "AS IS" AND PRINCETON UNIVERSITY MAKES NO REPRESENTATIONS OR WARRANTIES, EXPRESS OR IMPLIED.  BY WAY OF EXAMPLE, BUT NOT LIMITATION, PRINCETON UNIVERSITY MAKES NO REPRESENTATIONS OR WARRANTIES OF MERCHANT- ABILITY OR FITNESS FOR ANY PARTICULAR PURPOSE OR THAT THE USE OF THE LICENSED SOFTWARE, DATABASE OR DOCUMENTATION WILL NOT INFRINGE ANY THIRD PARTY PATENTS, COPYRIGHTS, TRADEMARKS OR OTHER RIGHTS.</string>
+    <string name="apache_text">The Color Picker dialog source code is licensed under the Apache License 2.0.  You may obtain a copy of the license at http://www.apache.org/licenses/LICENSE-2.0.</string>
+    <string name="contact_us_text">Follow us on Twitter @ezeeideas.  You can contact us with feedback and requests at ezeeideas@gmail.com.</string>
+    <string name="aboutdialog_title">About</string>
+
+    <!-- Words Screens -->
+    <string name="choose_word_type">Choose Word Type</string>
+    <string name="wordtypelist_title">Word Types</string>
+    <string name="words_heading">Words</string>
+    <string name="words_title">Words</string>
+    <string name="search_words_hint">Enter Text to Search</string>
+    <string name="search_words">Search Words</string>
+    <string name="browse_words">Browse Words</string>
+    <string name="searchwords_title">Search Words</string>
+    <string name="searchwords_heading">Words matching \""%1$s\"</string>
+    <string name="search_no_results">No matching words found!  Please try searching for a different keyword.</string>
+
+    <!-- Hints -->
+    <string name="wordmeaningtest_hinttext">Hint: One less choice to choose from!</string>
+    <string name="wordmeaningtest_nomorehints">No more hints!</string>
+    <string name="not_finished_yet">You\'re not finished yet!</string>
+    <string name="not_all_right">Not all correct! Click Reveal to see the right answers.</string>
+    <string name="matchwordstest_hinttext">Matched a pair!</string>
+    <string name="matchwordstest_nomorehinttext">No more hints!</string>
+    <string name="hangmantest_hinttext">Revealed a letter!</string>
+    <string name="hangmantest_nomorehinttext">No more hints!</string>
+    <string name="crosswordtest_hinttext">Revealed a word!</string>
+    <string name="crosswordtest_nomorehinttext">No more hints!</string>
+    <string name="wordsearchtest_hinttext">Revealed a word!</string>
+    <string name="wordsearchtest_nomorehinttext">No more hints!</string>
+    <string name="setupdb_progress_message">Initializing...</string>
+    <string name="setupcrossword_progress_title"></string>
+    <string name="setupcrossword_progress_message">Building Crossword...</string>
+
+    <!-- Help -->
+    <string name="help_title">%1$s - HELP</string>
+    <string name="stop_help_text_all_tests">Use the Stop button to end the game and return to the main game selection screen.</string>
+   <string name="reveal_help_text_all_tests">Use the Reveal button to reveal the answer to the current game.  You cannot continue on the same game once this has been chosen, and of course, you don\'t earn any points for it either!</string>
+   <string name="pause_help_text_all_tests">Use the Pause button to pause a game.  The game will remain paused until you resume it.</string>
+    <string name="hint_help_text_word_meaning_test">Use the Hint button to disable one of the active choices, so you\'re left with one less option to choose from.</string>
+    <string name="hint_help_text_match_words_test">Use the Hint button to reveal/correct one of the matching pairs, so you have one less pair to match.</string>
+    <string name="hint_help_text_hangman_test">Use the Hint button to reveal a character that is not yet disclosed, so you\'re left with one less letter to choose.</string>
+    <string name="hint_help_text_crossword_test">Use the Hint button to reveal/correct a word in the crossword, so you\'re left with one less word to find.</string>
+    <string name="hint_help_text_jumble_test">Use the Hint button to reveal/correct a letter in the jumbled word, so you\'re left with one less letter to place.</string>
+    <string name="hint_help_text_wordsearch_test">Use the Hint button to reveal a word in the matrix, so you\'re left with one less word to find.</string>
+    <string name="next_help_text_all_tests">Use the Next button to skip the current game and move to the next game.</string>
+    <string name="help_help_text_all_tests">Use the Help button to see this information page.</string>
+    <string name="share_help_text_all_tests">Use the Share button to share the game with your friends on Facebook, or to invite your friends to play Word Jam.</string>
+    <string name="helpdialog_title">Help</string>
+    <string name="help_goal_word_meaning_test">The goal is to select the correct answer from the given 4 choices.</string>
+    <string name="help_goal_match_words_test">The goal is to match the given words to their corresponding meanings.</string>
+    <string name="help_goal_hangman_test">The goal is to find the word, given its meaning, before the hang man is \'finished\'.</string>
+    <string name="help_goal_crossword_test">The goal is to correctly find all words in the given crossword.</string>
+    <string name="help_goal_jumble_test">The goal is to correctly place all letters in the given jumbled word.</string>
+    <string name="help_goal_wordsearch_test">The goal is to correctly identify all the listed words in the letter matrix.</string>
+    <string name="help_tips_word_meaning_test">Tap on one of the 4 choice buttons to make a selection.</string>
+    <string name="help_tips_match_words_test">* Drag your finger from word to meaning (or vice versa) to make a pair.\n* You can change an existing pair by dragging the end of the pair needle to the target choice.\n* Once a pair is correctly matched, its color changes to a darker shade and it \"freezes\".</string>
+    <string name="help_tips_hangman_test">* Use the on-screen keypad to select the next letter.\n* You can make a maximum of 7 wrong moves before the game ends.</string>
+    <string name="help_tips_crossword_test">* To place a letter on the crossword, tap on the target cell to bring up the on-screen keypad.\n* You can use the \'space\' key on the keypad to \'erase\' an existing letter entry.\n* Tapping on the clue on the across or down list will highlight the word for easy correlation.</string>
+    <string name="help_tips_jumble_test">* Tap on any letter in the jumbled word to place it next in line on the unjumbled word.</string>
+    <string name="help_tips_wordsearch_test">* Words can be in horizontal, vertical or diagonal orientation, and in both forward and reverse directions.\n* To select a word in the square, hold your finger at either end of the word and drag your finger on the word, and release it at the last letter.\n* You will see a preview of the currently selected word under your drag near the first or last row of the matrix (in dark background color overlay).</string>
+    <string name="test_selection_heading">Puzzles</string>
+    <string name="help_points_general_text">* You earn %1$d points on a successful game completion.\n* You earn %2$d bonus points if you complete the game within %3$d seconds!\n* You lose %4$d points if you reveal the solution.</string>
+    <string name="help_points_recall_words_text"></string>
+    <string name="help_points_match_words_text">\n* You earn %1$d points for every correctly matched pair.\n* You lose %2$d points for every incorrectly matched pair.</string>
+    <string name="help_points_hangman_text">\n* You earn %1$d points for every correctly found letter.</string>
+    <string name="help_points_crossword_text">\n* You earn %1$d points for every correctly found word.\n* You lose %2$d points for every incorrectly found word.</string>
+    <string name="help_points_word_jumble_text">\n* You earn %1$d points for every correctly placed letter.</string>
+    <string name="help_points_word_search_text">\n* You earn %1$d points for every correctly found word.</string>
+    <string name="help_tips_title_text">TIPS</string>
+    <string name="help_points_title_text">POINTS</string>
+    <string name="help_hints_general_text">You can use a maximum of %1$d hints per game.</string>
+
+    <!-- Themes -->
+    <string name="theme_1_label">Sunset Orange</string>
+    <string name="theme_2_label">Sky Blue</string>
+    <string name="theme_3_label">Forest Green</string>
+    <string name="theme_4_label">Electric Purple</string>
+    <string name="theme_5_label">Coffee Time</string>
+    <string name="theme_6_label">Custom Color</string>
+    <string name="themes_heading">Choose a Theme</string>
+    <string name="themesdialog_title">Choose a Theme</string>
+
+    <!-- Test Summary -->
+    <string name="test_pass_title">Right Answer!</string>
+    <string name="test_pass_text">Tap anywhere on this message to continue.</string>
+    <string name="test_fail_title_with_answer">Wrong Answer!</string>
+    <string name="test_fail_text_with_answer">The correct answer is \"%1$s\".  Tap anywhere to continue.</string>
+    <string name="test_fail_title_without_answer">Oops!</string>
+    <string name="test_fail_text_without_answer">You didn\'t correctly answer the puzzle.  Tap anywhere to dismiss, and then use the Reveal button to view the correct solution.</string>
+    <string name="test_result_title">Summary</string>
+    <string name="test_result_total_tests">Total Puzzles:</string>
+    <string name="test_result_passed_tests">Passed:</string>
+    <string name="test_result_hints_used">Hints Used:</string>
+    <string name="test_result_text">Tap anywhere to continue.</string>
+    <string name="rate_app_text">If you enjoy using Word Jam, please take a moment to rate the app or share your feedback.  Thanks for your support!</string>
+
+    <!-- Word Jumble -->
+    <string name="jumbletest_nomorehinttext">No more hints!</string>
+    <string name="jumbletest_hinttext">Unjumbled a letter!</string>
+    <string name="jumbled_heading">Jumbled</string>
+    <string name="unjumbled_heading">Unjumbled</string>
+
+    <!-- Word Search -->
+    <string name="wordlist_left_heading">Words</string>
+    <string name="wordlist_right_heading"></string>
+    <string name="setupwordsearch_progress_title"></string>
+    <string name="setupwordsearch_progress_message">Building Word Search...</string>
+    <string name="number_remaining">%1$d remaining</string>
+
+    <!-- Color Picker Dialog -->
+    <string name="color_picker_dialog_title">Pick a Color</string>
+
+    <!-- Game Selection -->
+    <string name="gameselection_title">Game Selection</string>
+    <string name="new_game_label">New Game</string>
+    <string name="recent_game_label">Resume Recent Game: %s</string>
+    <string name="recently_played">Recently Played Games</string>
+    <string name="savedgames_title">Saved Games</string>
+    <string name="all_games_button_text">All Games</string>
+    <string name="title_activity_play_home">PlayHomeActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    
+    <!-- Options -->
+    <string name="options_title_label">Options</string>
+    <string name="settings_button_label">Word Difficulty</string>
+    <string name="themes_button_label">Themes</string>
+    <string name="account_button_label">Account</string>
+    
+    <!-- Settings -->
+    <string name="settings_title_label">Settings</string>
+    <string name="setting_next_game_text_label">When moving to the next game, take me to</string>
+    <string name="setting_next_game_same_label">A new game of the same type</string>
+    <string name="setting_next_game_random_label">A new game of random type</string>
+    <string name="setting_next_game_ask_label">Ask me what type of game to play next</string>
+    <string name="setting_restore_game_text_label">When WordJam restarts, take me to</string>
+    <string name="setting_home_screen_label">Home screen</string>
+    <string name="setting_restore_game_label">Most recent game played</string>
+
+    <!-- Level Point Summary Dialog -->
+    <string name="dialog_leveL_point_summary_title_text">Level %1$d Summary</string>
+    <string name="points_remaining_description_text">more points needed</string>
+    <string name="points_remaining_text">(%1$d points earned)</string>
+    <string name="games_remaining_description_text">more games to be completed</string>
+    <string name="games_remaining_text">(%1$d games completed)</string>
+    <string name="hints_remaining_description_text">hints remaining</string>
+    <string name="hints_remaining_text">(%1$d hints consumed, %2$d earned)</string>
+    <string name="progress_value_text">%1$s \%</string>
+    <string name="progress_description_text">your progress in this level</string>
+    <string name="progress_text_bad">Consider practicing more!</string>
+    <string name="progress_text_medium">You are making progress, keep going!/</string>
+    <string name="progress_text_good">Almost there!</string>
+    <string name="dialog_level_point_summary_footer_text">Tap anywhere to continue</string>
+    
+    <!-- Game Pause Dialog -->
+    <string name="dialog_game_pause_title_text">Game Paused</string>
+    <string name="dialog_game_pause_footer_text">Tap anywhere to resume game</string>
+    
+    <!-- Game Giveup Dialog -->
+    <string name="dialog_game_giveup_title_text">Reveal Solution?</string>
+    <string name="dialog_game_giveup_footer_text">Tap anywhere else to continue playing</string>
+    <string name="dialog_game_giveup_points_text">You will lose %1$d points if you continue revealing.</string>
+    <string name="dialog_game_giveup_hints_text">(You have %1$d hints remaining in the game.  Consider using them before giving up!)</string>
+    <string name="give_up_button_text">Reveal</string>
+    <string name="give_up_share_button_text">Ask friends</string>
+    <string name="game_give_up_share_text">Hi friends! Can anyone help me complete this %1$s game on %2$s?</string>
+    
+    <!-- Game Share Dialog -->
+    <string name="dialog_game_share_title_text">Share Game</string>
+    <string name="dialog_game_share_description_text">Share this game with your friends on Facebook, or Invite your friends to play Word Jam!</string>
+    <string name="dialog_game_share_footer_text">Tap anywhere else to cancel sharing</string>
+    <string name="share_game_button_text">Share Game</string>
+    <string name="invite_friends_button_text">Invite friends!</string>
+    <string name="game_share_text">Hi friends! Checkout my progress on this %1$s game on %2$s!</string>
+    <string name="facebook_share_story_title">Check out Word Jam!</string>
+    <string name="facebook_share_story_caption"></string>
+    <string name="facebook_share_story_description">Hi friends, come join me play Word Jam, the All-in-one Word Game!</string>
+    
+    <!-- Game Completed Dialog -->
+    <string name="dialog_game_completed_title_text">Game Completed!</string>
+    <string name="dialog_game_completed_footer_text">Tap anywhere to continue to the next game</string>
+    <string name="dialog_game_completed_text">Congratulations!  You\'ve just completed this game and earned %1$d points!</string>
+    <string name="dialog_game_completed_share_button_text">Share with friends</string>
+    <string name="dialog_game_completed_share_text">Hi.. I just completed this %1$s game on %2$s and earned %3$d points!</string>
+    
+    <!-- Game Failed Dialog -->
+    <string name="dialog_game_failed_title_text">Oops!</string>
+    <string name="dialog_game_failed_footer_text">Tap anywhere to view the correct answer</string>
+    <string name="dialog_game_failed_str">Sorry! Incorrect answer.  Better luck next time.</string>
+    
+    <!-- Game Hints Exhausted Dialog -->
+    <string name="dialog_game_hints_exhausted_title_text">Oops!</string>
+    <string name="dialog_game_hints_exhausted_footer_text">Tap anywhere to dismiss</string>
+    <string name="dialog_game_hints_exhausted_text">Sorry!  You have run out of hints for this game.</string>
+    <string name="dialog_game_hints_exhausted_share_button_text">Ask friends!</string>
+    <string name="dialog_game_hints_exhausted_share_text">Hi friends!  Can anyone help me with this %1$s game on %2$s?</string>
+    
+    <!-- Game Hint Confirmation Dialog -->
+    <string name="dialog_game_hint_confirmation_title_text">Really use hint?</string>
+    <string name="dialog_game_hint_confirmation_footer_text">Tap anywhere else to continue without using the hint</string>
+    <string name="dialog_game_hint_confirmation_text">You have 1 hint remaining in the game.  Are you sure you want to consume it?</string>
+    
+    <!-- Level Welcome Dialog -->
+    <string name="dialog_level_welcome_title">Welcome to Level %1$d!</string>
+    <string name="points_to_be_earned_description_text">Total points to be earned</string>
+    <string name="games_to_be_completed_description_text">Total games to be completed</string>
+    <string name="hints_available_description_text">Total hints available</string>
+    <string name="dialog_level_welcome_footer_text">Tap anywhere to get started</string>
+    
+    <!-- Level Resume Game Dialog -->
+    <string name="dialog_level_resume_game_title_text">Nothing to resume!</string>
+    <string name="dialog_level_resume_game_text">You don\'t have any games to resume!  A new game will be started.</string>
+    <string name="dialog_level_resume_game_footer_text">Tap anywhere to continue</string>
+    
+    <!-- Practice Point Summary Dialog -->
+    <string name="dialog_practice_point_summary_title_text">Games Summary</string>
+    <string name="points_earned_description_text">points earned</string>
+    <string name="games_completed_description_text">games played</string>
+    <string name="hints_used_description_text">hints used</string>
+    <string name="time_spent_description_text">time spent</string>
+    <string name="dialog_practice_point_summary_footer_text">Tap anywhere to continue</string>
+    <string name="dialog_practice_point_summary_share_button_text">Share with friends</string>
+    <string name="practice_point_summary_share_story_title">I just played %1$d %2$s games on Word Jam!</string>
+    <string name="practice_point_summary_share_story_caption">in record time!</string>
+    <string name="practice_point_summary_share_story_description">Type of game: %1$s, Games played: %2$d, Points earned: %3$d, Time spent: %4$d seconds, Hints used: %5$d!</string>
+    
+    <!-- Exit Screen -->
+    <string name="exit_screen_title">THANK YOU!</string>
+    <string name="exit_title_label">Exit</string>
+    <string name="exit_label">Exit</string>
+    <string name="rate_label">Rate WordJam!</string>
+    <string name="feedback_label">Share your feedback</string>
+    <string name="support_email_subject">Feedback related to Word Jam on Android</string>
+    <string name="support_email_title">Share Feedback...</string>
+</resources>

@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/main_layout"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:padding="10dip"
+    android:background="@color/background"
+>
+       	    <TextView
+    	android:id="@+id/test_heading"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:textColor="@color/header_text_color"
+        android:textAppearance="@style/testHeading"
+        android:textSize="20sp" />
+        
+    	    <View
+    	    android:id="@+id/rule_header"
+    	android:layout_width="fill_parent"
+    	android:layout_height="2dip"
+    	android:background="@color/rule"
+    	/>
+    	    	    <View
+    	android:layout_width="fill_parent"
+    	android:layout_height="10dip"
+    	/>
+    	
+<com.ezeeideas.wordjam.MatchWordsPanel
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:id="@+id/matchwordspanel"
+  android:orientation="horizontal"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:layout_weight="1"
+  >
+  
+
+  <RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="0px"
+  android:layout_height="fill_parent"
+  android:layout_centerVertical="true"
+  android:layout_weight="0.3"
+  >
+  
+     <Button
+        android:id="@+id/word1_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="top"
+        android:layout_alignParentLeft="true"
+        />
+        
+         	<Button
+        android:id="@+id/word2_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/word1_button"
+        android:layout_alignLeft="@id/word1_button"
+        />
+        
+          <Button
+        android:id="@+id/word3_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/word2_button"
+        android:layout_alignLeft="@id/word2_button"              
+         />
+         
+         <Button
+        android:id="@+id/word4_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/word3_button"
+        android:layout_alignLeft="@id/word3_button"              
+         />
+         
+         <Button
+        android:id="@+id/word5_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/word4_button"
+        android:layout_alignLeft="@id/word4_button"              
+         />
+         
+         <Button
+        android:id="@+id/word6_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/word5_button"
+        android:layout_alignLeft="@id/word5_button"              
+         />
+         
+         <Button
+        android:id="@+id/word7_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/word6_button"
+        android:layout_alignLeft="@id/word6_button"              
+         />
+         
+         <Button
+        android:id="@+id/word8_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/word7_button"
+        android:layout_alignLeft="@id/word7_button"              
+         />
+    
+  </RelativeLayout>
+  <View xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="0px"
+  android:layout_height="fill_parent"
+  android:layout_weight="0.3"
+  />
+  
+  <RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="0px"
+  android:layout_height="fill_parent"
+  android:layout_centerVertical="true"
+  android:layout_weight="0.4"
+  >
+   
+     <Button
+        android:id="@+id/meaning1_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="top"
+        android:layout_alignParentRight="true"
+        />
+        
+         	<Button
+        android:id="@+id/meaning2_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/meaning1_button"
+        android:layout_alignRight="@id/meaning1_button"              
+         />   
+       	<Button
+        android:id="@+id/meaning3_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/meaning2_button"
+        android:layout_alignRight="@id/meaning2_button"              
+         />   
+         
+          	<Button
+        android:id="@+id/meaning4_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/meaning3_button"
+        android:layout_alignRight="@id/meaning3_button"              
+         />   
+         
+          	<Button
+        android:id="@+id/meaning5_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/meaning4_button"
+        android:layout_alignRight="@id/meaning4_button"              
+         />   
+         
+          	<Button
+        android:id="@+id/meaning6_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/meaning5_button"
+        android:layout_alignRight="@id/meaning5_button"              
+         />   
+         
+          	<Button
+        android:id="@+id/meaning7_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/meaning6_button"
+        android:layout_alignRight="@id/meaning6_button"              
+         />   
+         
+          	<Button
+        android:id="@+id/meaning8_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/meaning7_button"
+        android:layout_alignRight="@id/meaning7_button"              
+         />            
+        
+  </RelativeLayout>
+</com.ezeeideas.wordjam.MatchWordsPanel>
+  <View
+  android:id="@+id/rule_footer"
+    	android:layout_width="fill_parent"
+    	android:layout_height="2dip"
+    	android:background="@color/rule"
+    	/>
+    <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:stretchColumns="1">
+    <TableRow>
+   <ImageButton
+    	android:id="@+id/stop"
+    	android:src="@drawable/stop_button"
+    	android:layout_width="0dip"
+    	android:layout_height="wrap_content"
+    	android:layout_weight="1"
+        android:background="@color/transparent"
+        ></ImageButton>
+        
+        <ImageButton
+    	android:id="@+id/reveal"
+    	android:src="@drawable/reveal_button"
+    	android:layout_width="0dip"
+    	android:layout_height="wrap_content"
+    	android:layout_weight="1"
+        android:background="@color/transparent"
+        ></ImageButton>
+        
+           <ImageButton
+    	android:id="@+id/done"
+    	android:src="@drawable/test"
+    	android:layout_width="0dip"
+    	android:layout_height="wrap_content"
+    	android:layout_weight="1"
+        android:background="@color/transparent"
+        ></ImageButton>
+ 
+ <ImageButton
+    	android:id="@+id/hint"
+    	android:src="@drawable/hint_button"
+    	android:layout_width="0dip"
+    	android:layout_height="wrap_content"
+    	android:layout_weight="1"
+    	android:background="@color/transparent"
+        ></ImageButton>
+        
+      <ImageButton
+    	android:id="@+id/help"
+    	android:src="@drawable/help_button"
+    	android:layout_width="0dip"
+    	android:layout_height="wrap_content"
+    	android:layout_weight="1"
+    	android:background="@color/transparent"
+        ></ImageButton>
+        
+      
+   
+          <ImageButton
+    	android:id="@+id/next"
+    	android:src="@drawable/next_button"
+    	android:layout_width="0dip"
+    	android:layout_height="wrap_content"
+    	android:layout_weight="1"
+        android:background="@color/transparent"
+        ></ImageButton>
+        
+   
+   
+      
+        
+        </TableRow>
+        </TableLayout>
+</LinearLayout>

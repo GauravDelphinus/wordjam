@@ -1,0 +1,19 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="0"
+    android:layout_gravity="center">
+    
+	<com.google.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="0"
+        ads:adSize="IAB_BANNER"
+        ads:adUnitId="a15281ef463ae86"
+        ads:loadAdOnCreate="false"
+        ads:testDevices="FDF2AAD6332CD4B74A3307FB5A05FF79"
+        android:background="@color/black" />
+	
+</LinearLayout>

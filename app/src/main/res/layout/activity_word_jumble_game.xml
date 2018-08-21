@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+    
+    <LinearLayout
+	    android:id="@+id/game_main_layout"
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+	    android:background="@color/game_background_color"
+	    android:orientation="vertical"
+	    android:padding="10dip" 
+	    android:layout_weight="1">
+	    
+	    <include layout="@layout/game_upper_layout" />
+	    
+		<include layout="@layout/game_word_jumble_layout" />
+		
+	    <include layout="@layout/game_lower_layout" />
+    
+	</LinearLayout>
+
+    <include layout="@layout/game_bottom_ad_banner" />
+    
+</LinearLayout>
+    

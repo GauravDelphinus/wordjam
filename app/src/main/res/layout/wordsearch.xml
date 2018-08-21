@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/main_layout"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:padding="10dip"
+    android:background="@color/background"
+>
+        	    <TextView
+    	android:id="@+id/test_heading"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:textColor="@color/header_text_color"
+        android:textAppearance="@style/testHeading"
+        android:textSize="20sp" />
+        
+    	    <View
+    	    android:id="@+id/rule_header"
+    	android:layout_width="fill_parent"
+    	android:layout_height="2dip"
+    	android:background="@color/rule"
+    	/>
+    	    	    <View
+    	android:layout_width="fill_parent"
+    	android:layout_height="10dip"
+    	/>
+    	
+
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  >
+
+  <com.ezeeideas.wordjam.WordSearchPanel
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:id="@+id/wordsearchpanel"
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="0px"
+  android:layout_alignParentTop="true"
+  android:layout_weight="0.70"
+  >
+  <View
+      android:id="@+id/wordsearchview"
+      android:layout_width="fill_parent"
+      android:layout_height="fill_parent"
+      android:background="@color/blue"
+      />
+  
+  </com.ezeeideas.wordjam.WordSearchPanel>
+  <TextView
+  		android:id="@+id/wordlist_heading"
+ 		android:layout_width="wrap_content"
+ 		android:layout_height="wrap_content"
+ 		android:textColor="@color/text_color"
+ 		android:layout_gravity="center"
+ 		/>
+      
+  <LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="horizontal"
+  android:layout_width="fill_parent"
+  android:layout_height="0px"
+  android:layout_alignParentBottom="true"
+  android:layout_below="@id/wordsearchpanel"
+  android:layout_weight="0.30"
+  >
+  	<LinearLayout
+  	xmlns:android="http://schemas.android.com/apk/res/android"
+  	android:orientation="vertical"
+  	android:layout_width="0px"
+  	android:layout_height="fill_parent"
+  	android:layout_weight="0.5">
+  
+  <ListView
+  android:id="@+id/wordlist_left"
+  android:layout_height="fill_parent"
+  android:layout_width="fill_parent"
+  android:cacheColorHint="@color/transparent"
+  />
+  </LinearLayout>
+  	<LinearLayout
+  	xmlns:android="http://schemas.android.com/apk/res/android"
+  	android:orientation="vertical"
+  	android:layout_width="0px"
+  	android:layout_height="fill_parent"
+  	android:layout_weight="0.5">
+  
+  <ListView
+  android:id="@+id/wordlist_right"
+  android:layout_height="fill_parent"
+  android:layout_width="fill_parent"
+  android:cacheColorHint="@color/transparent"
+  />
+  </LinearLayout>
+  </LinearLayout>
+
+  <View
+  android:id="@+id/rule_footer"
+    	android:layout_width="fill_parent"
+    	android:layout_height="2dip"
+    	android:background="@color/rule"
+    	/>
+        <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:stretchColumns="1">
+    <TableRow>
+   <ImageButton
+    	android:id="@+id/stop"
+    	android:src="@drawable/stop_button"
+    	android:layout_width="0dip"
+    	android:layout_height="wrap_content"
+    	android:layout_weight="1"
+        android:background="@color/transparent"
+        ></ImageButton>
+        
+        <ImageButton
+    	android:id="@+id/reveal"
+    	android:src="@drawable/reveal_button"
+    	android:layout_width="0dip"
+    	android:layout_height="wrap_content"
+    	android:layout_weight="1"
+        android:background="@color/transparent"
+        ></ImageButton>
+ 
+ <ImageButton
+    	android:id="@+id/hint"
+    	android:src="@drawable/hint_button"
+    	android:layout_width="0dip"
+    	android:layout_height="wrap_content"
+    	android:layout_weight="1"
+    	android:background="@color/transparent"
+        ></ImageButton>
+        
+     <ImageButton
+    	android:id="@+id/help"
+    	android:src="@drawable/help_button"
+    	android:layout_width="0dip"
+    	android:layout_height="wrap_content"
+    	android:layout_weight="1"
+    	android:background="@color/transparent"
+        ></ImageButton>
+  
+         <ImageButton
+    	android:id="@+id/next"
+    	android:src="@drawable/next_button"
+    	android:layout_width="0dip"
+    	android:layout_height="wrap_content"
+    	android:layout_weight="1"
+        android:background="@color/transparent"
+        ></ImageButton>
+        
+        </TableRow>
+        </TableLayout>
+    
+</LinearLayout>	  
+</LinearLayout>

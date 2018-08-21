@@ -1,0 +1,62 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/game_upper_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="0"
+    android:orientation="vertical" >
+    
+    <TextView 
+        android:id="@+id/game_header_text_view"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/game_header_text"
+        android:textStyle="bold"
+        android:textSize="@dimen/game_heading_text_size"
+      	android:gravity="center"
+      	android:visibility="gone"
+      	/>
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        
+   		<TextView
+   		    android:id="@+id/game_points_text_view"
+   		    android:layout_width="wrap_content"
+   		    android:layout_height="wrap_content"
+   		    android:layout_alignParentLeft="true"
+   		    android:textColor="@color/points_text_color"
+   		    android:textSize="@dimen/game_points_text_size"
+   		    android:textStyle="bold" />
+
+    	<TextView
+	    	android:id="@+id/game_title_text_view"
+	        android:layout_height="wrap_content"
+	        android:layout_width="wrap_content"
+	        android:layout_gravity="center"
+	        android:textColor="@color/header_text_color"
+	        android:textAppearance="@style/testHeading"
+	        android:layout_centerHorizontal="true"
+	        android:textStyle="bold"
+	        android:textSize="@dimen/game_title_text_size"/>
+
+    	<TextView
+    	    android:id="@+id/game_time_text_view"
+    	    android:layout_width="wrap_content"
+    	    android:layout_height="wrap_content"
+    	    android:layout_alignParentRight="true"
+    	    android:textSize="@dimen/game_time_text_size"
+    	    android:textColor="@color/time_text_color" />
+    	    
+    </RelativeLayout>
+        
+    <View
+        android:id="@+id/rule_header"
+        android:layout_width="fill_parent"
+        android:layout_height="2dip"
+        android:background="@color/rule" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="10dip" />
+    
+</LinearLayout>

@@ -1,0 +1,32 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    android:orientation="vertical" >
+    	
+	<TextView
+	    android:id="@+id/given_text"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_gravity="center"
+	    android:gravity="center"
+	    android:textColor="@color/given_text_color"
+	    android:layout_weight="0"
+	    android:textSize="@dimen/game_given_text_size" />
+
+  	<com.ezeeideas.wordjam.HangmanPanel
+  	    xmlns:android="http://schemas.android.com/apk/res/android"
+  	    android:id="@+id/hangmanpanel"
+  	    android:layout_width="fill_parent"
+  	    android:layout_height="0px"
+  	    android:layout_weight="1"
+  	    android:orientation="vertical" />
+  
+  	<LinearLayout
+  	    android:id="@+id/keypad_layout"
+  	    android:layout_width="fill_parent"
+  	    android:layout_height="0px"
+  	    android:layout_weight="0"
+  	    android:orientation="vertical" />
+  
+  </LinearLayout>

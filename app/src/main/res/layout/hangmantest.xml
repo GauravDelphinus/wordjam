@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/main_layout"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:padding="10dip"
+    android:background="@color/background"
+>
+   
+       	    <TextView
+    	android:id="@+id/test_heading"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:textColor="@color/header_text_color"
+        android:textAppearance="@style/testHeading"
+        android:textSize="20sp" />
+        
+    	    <View
+    	    android:id="@+id/rule_header"
+    	android:layout_width="fill_parent"
+    	android:layout_height="2dip"
+    	android:background="@color/rule"
+    	/>
+    	    	    <View
+    	android:layout_width="fill_parent"
+    	android:layout_height="10dip"
+    	/>
+    	    	    
+
+    	
+    	    <TextView
+    	android:id="@+id/given_text"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:textColor="@color/given_text_color"
+        android:textSize="15sp" />
+        
+<LinearLayout
+  
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  >
+  
+
+  <com.ezeeideas.wordjam.HangmanPanel
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:id="@+id/hangmanpanel"
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="0px"
+  android:layout_alignParentTop="true"
+  android:layout_weight="1"
+  >
+  
+  </com.ezeeideas.wordjam.HangmanPanel>
+  
+
+  <LinearLayout
+
+  android:id="@+id/keypad_layout"
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="0px"
+  android:layout_alignParentBottom="true"
+  android:layout_weight="0"
+  >
+          
+  </LinearLayout>
+  
+  </LinearLayout>
+
+  <View
+  android:id="@+id/rule_footer"
+    	android:layout_width="fill_parent"
+    	android:layout_height="2dip"
+    	android:background="@color/rule"
+    	/>
+    <TableLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:stretchColumns="1">
+    <TableRow>
+   <ImageButton
+    	android:id="@+id/stop"
+    	android:src="@drawable/pause_button"
+    	android:layout_width="0dip"
+    	android:layout_height="wrap_content"
+    	android:layout_weight="1"
+        android:background="@color/transparent"
+        ></ImageButton>
+        
+                <ImageButton
+    	android:id="@+id/clear"
+    	android:src="@drawable/clear_button"
+    	android:layout_width="0dip"
+    	android:layout_height="wrap_content"
+    	android:layout_weight="1"
+        android:background="@color/transparent"
+        ></ImageButton>
+        
+ 
+ <ImageButton
+    	android:id="@+id/hint"
+    	android:src="@drawable/hint_button"
+    	android:layout_width="0dip"
+    	android:layout_height="wrap_content"
+    	android:layout_weight="1"
+    	android:background="@color/transparent"
+        ></ImageButton>
+        
+    <ImageButton
+    	android:id="@+id/help"
+    	android:src="@drawable/help_button"
+    	android:layout_width="0dip"
+    	android:layout_height="wrap_content"
+    	android:layout_weight="1"
+    	android:background="@color/transparent"
+        ></ImageButton>
+        
+       <ImageButton
+    	android:id="@+id/facebook"
+    	android:src="@drawable/facebook_button"
+    	android:layout_width="0dip"
+    	android:layout_height="wrap_content"
+    	android:layout_weight="1"
+        android:background="@color/transparent"
+        ></ImageButton>
+       
+       <ImageButton
+    	android:id="@+id/previous"
+    	android:src="@drawable/previous_button"
+    	android:layout_width="0dip"
+    	android:layout_height="wrap_content"
+    	android:layout_weight="1"
+        android:background="@color/transparent"
+        ></ImageButton>
+   
+          <ImageButton
+    	android:id="@+id/next"
+    	android:src="@drawable/next_button"
+    	android:layout_width="0dip"
+    	android:layout_height="wrap_content"
+    	android:layout_weight="1"
+        android:background="@color/transparent"
+        ></ImageButton>
+        
+    <ImageButton
+    	android:id="@+id/newgame"
+    	android:src="@drawable/newgame_button"
+    	android:layout_width="0dip"
+    	android:layout_height="wrap_content"
+    	android:layout_weight="1"
+        android:background="@color/transparent"
+        ></ImageButton>
+        
+        
+        </TableRow>
+        </TableLayout>
+ 
+</LinearLayout>

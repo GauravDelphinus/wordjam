@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:id="@+id/game_dialog_root_layout"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:padding="10dp"
+              >
+                   <TextView
+            android:text="@string/dialog_game_hint_confirmation_title_text"
+            	android:textSize="25sp"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:textColor="#FFFFFFFF"
+              />
+                   
+           <TextView
+            android:text="@+string/dialog_game_hint_confirmation_text"
+            	android:textSize="25sp"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:textColor="#FFFFFFFF"
+              />
+    <ImageView 
+        	   android:id="@+id/use_hint_button"
+               android:layout_width="fill_parent"
+               android:layout_height="wrap_content"
+               android:layout_gravity="center_horizontal"
+               android:src="@drawable/hint_normal"
+               />
+
+   
+        <View
+            android:layout_height="10sp"
+            android:layout_width="fill_parent"
+            />
+    <TextView
+        android:text="@string/dialog_game_hint_confirmation_footer_text"
+        	android:textSize="15sp"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:textColor="#FFFFFFFF"
+              />
+
+</LinearLayout>

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/main_layout"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_gravity="center_vertical"
+    android:padding="30dip"
+    android:background="@color/background"
+    >
+<LinearLayout 
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_centerInParent="true"
+    >
+           <TextView
+  	 	
+  	 	android:id="@+id/level_selection_title_text_view"
+      	android:layout_width="wrap_content"
+      	android:layout_height="wrap_content"
+      	android:textSize="25sp"
+      	android:layout_gravity="center"
+      	android:textColor="@color/text_color"
+      />
+             <TextView
+  	 	
+  	 	android:text="@string/level_selection_subtitle_text"
+      	android:layout_width="wrap_content"
+      	android:layout_height="wrap_content"
+      	android:textSize="15sp"
+      	android:layout_gravity="center"
+      	android:textColor="@color/text_color"
+      />
+       <View
+    	android:layout_width="fill_parent"
+    	android:layout_height="10dip"
+    	/>
+       
+       <LinearLayout
+           android:layout_width="fill_parent"
+           android:layout_height="wrap_content"
+           android:orientation="vertical"
+           android:layout_gravity="center"
+           >
+           <LinearLayout
+		       android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:orientation="horizontal"
+               android:padding="10dip"
+               android:layout_gravity="center"
+               >
+		       
+				<Button
+		    android:id="@+id/level1_button"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:text="@string/level_1_label"
+		    android:background="@drawable/level1_custom_button"
+		   />
+					<Button
+		    android:id="@+id/level2_button"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:text="@string/level_2_label"
+		    android:background="@drawable/level2_custom_button"
+		   />
+						<Button
+		    android:id="@+id/level3_button"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:text="@string/level_3_label"
+		    android:background="@drawable/level3_custom_button"
+		   /> 
+				</LinearLayout>
+	
+                      <LinearLayout
+		       android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:orientation="horizontal"
+               android:padding="10dip"
+               android:layout_gravity="center"
+               >
+		       
+				<Button
+		    android:id="@+id/level4_button"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:text="@string/level_4_label"
+		    android:background="@drawable/level4_custom_button"
+		   />
+					<Button
+		    android:id="@+id/level5_button"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:text="@string/level_5_label"
+		    android:background="@drawable/level5_custom_button"
+		   />
+						<Button
+		    android:id="@+id/level6_button"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:text="@string/level_6_label"
+		    android:background="@drawable/level6_custom_button"
+		   /> 
+				</LinearLayout>			
+	
+			
+												</LinearLayout>
+    	<ImageButton
+    	android:id="@+id/back_button"
+    	android:src="@drawable/test2"
+    	android:layout_height="wrap_content"
+    	android:layout_width="wrap_content"
+    	android:layout_gravity="center"
+        android:background="@color/transparent"
+        ></ImageButton>
+        
+</LinearLayout>
+</RelativeLayout>

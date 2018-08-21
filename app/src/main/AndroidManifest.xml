@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ezeeideas.wordjam"
+    android:installLocation="preferExternal"
+    android:versionCode="14"
+    android:versionName="@string/version_no" >
+
+    <uses-sdk
+        android:minSdkVersion=""
+        android:targetSdkVersion="26" />
+
+    <application
+        android:name="com.ezeeideas.wordjam.WordJamApp"
+        android:icon="@drawable/ic_launcher_wordjam"
+        android:label="@string/app_name" >
+        <activity
+            android:name="com.ezeeideas.wordjam.WordJam"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.ezeeideas.wordjam.WordsActivity"
+            android:label="@string/words_title"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+        
+        <activity
+            android:name="com.ezeeideas.wordjam.SearchWords"
+            android:label="@string/searchwords_title"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+        <activity
+            android:name="com.ezeeideas.wordjam.WordTypeList"
+            android:label="@string/wordtypelist_title"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+        <activity
+            android:name="com.ezeeideas.wordjam.WordList"
+            android:label="@string/wordlist_title"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+        <activity
+            android:name="com.ezeeideas.wordjam.GameSelectionActivity"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+        <activity
+            android:name="com.ezeeideas.wordjam.LevelSelectionActivity"
+            android:label="@string/level_selection_subtitle_text"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+
+        <activity
+            android:name="com.ezeeideas.wordjam.AllGamesList"
+            android:label="@string/savedgames_title"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+        <activity
+            android:name="com.ezeeideas.wordjam.RecallWordsGameActivity"
+            android:label="@string/wordmeaningtest_title"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+             />
+        <activity
+            android:name="com.ezeeideas.wordjam.MatchWordsGameActivity"
+            android:label="@string/matchwordstest_title"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+        <activity
+            android:name="com.ezeeideas.wordjam.HangmanGameActivity"
+            android:label="@string/hangmantest_title"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+        <activity
+            android:name="com.ezeeideas.wordjam.CrosswordGameActivity"
+            android:label="@string/crosswordtest_title"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+        <activity
+            android:name="com.ezeeideas.wordjam.WordJumbleGameActivity"
+            android:label="@string/jumbletest_title"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+        <activity
+            android:name="com.ezeeideas.wordjam.WordSearchGameActivity"
+            android:label="@string/wordsearchtest_title"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+        <activity
+            android:name="com.ezeeideas.wordjam.ThemesActivity"
+            android:label="@string/themesdialog_title"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+        <activity
+            android:name="com.ezeeideas.wordjam.AboutDialog"
+            android:label="@string/aboutdialog_title"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+        <activity
+            android:name="com.ezeeideas.wordjam.HelpDialog"
+            android:label="@string/helpdialog_title"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+        <activity
+            android:name="com.ezeeideas.wordjam.LevelHomeActivity"
+            android:label="@string/level_name"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+        <activity
+            android:name="com.ezeeideas.wordjam.ChallengeHomeActivity"
+            android:label="@string/level_name"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+        <activity
+            android:name="com.ezeeideas.wordjam.ChallengeChooserActivity"
+            android:label="@string/play_chooser_title_label"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+                
+        <activity
+            android:name="com.ezeeideas.wordjam.PracticeLevelSelectionActivity"
+            android:label="@string/play_chooser_title_label"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+        <activity
+            android:name="com.ezeeideas.wordjam.OptionsActivity"
+            android:label="@string/options_title_label"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+        <activity
+            android:name="com.ezeeideas.wordjam.SettingsActivity"
+            android:label="@string/settings_title_label"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+
+         <activity android:name="com.google.ads.AdActivity"
+              android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"/>
+
+
+         <meta-data android:name="com.facebook.sdk.ApplicationId" android:value="@string/app_id"/>
+         
+    </application>
+    
+    <uses-permission android:name="android.permission.INTERNET"/>
+  	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+</manifest>

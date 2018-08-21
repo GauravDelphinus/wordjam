@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/keypad"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+        <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.2"
+        >
+    
+        <ImageView
+            android:id="@+id/fill_direction_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:background="@color/transparent"
+            android:contentDescription="@string/fill_horizontal_text" />
+     	
+        <TextView
+            android:id="@+id/selected_hint_text_view"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="@dimen/crossword_hint_text_size"
+            android:layout_weight="1"
+            />
+      	<ImageButton
+                android:id="@+id/close_keypad_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/transparent"
+                android:contentDescription="@string/close_keypad_text"
+                android:layout_weight="0"
+                android:src="@drawable/close_keypad_button" />
+    </LinearLayout>
+    
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="10dip"
+        />
+    
+    <LinearLayout
+        android:id="@+id/key_buttons_layout1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.2"
+        android:orientation="horizontal" >
+
+        <Button
+            android:layout_width="0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.11"
+            android:textSize="@dimen/choice_button_text_size"
+            android:padding="0dp"
+            android:text=" " />
+                
+        <Button
+            android:layout_width="0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.11"
+            android:textSize="@dimen/choice_button_text_size"
+            android:padding="0dp"
+            android:text="A" />
+        <Button
+            android:layout_width="0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.11"
+            android:textSize="@dimen/choice_button_text_size"
+            android:padding="0dp"
+            android:text="B" />
+        <Button
+            android:layout_width="0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.11"
+            android:textSize="@dimen/choice_button_text_size"
+            android:padding="0dp"
+            android:text="C" />
+        <Button
+            android:layout_width="0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.11"
+            android:textSize="@dimen/choice_button_text_size"
+            android:padding="0dp"
+            android:text="D" />
+        <Button
+            android:layout_width="0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.11"
+            android:textSize="@dimen/choice_button_text_size"
+            android:padding="0dp"
+            android:text="E" />
+
+        
+    </LinearLayout>
+    
+    <LinearLayout
+        android:id="@+id/key_buttons_layout2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.2"
+        android:orientation="horizontal" >
+
+       	<Button
+            android:layout_width="0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.11"
+            android:textSize="@dimen/choice_button_text_size"
+            android:padding="0dp"
+            android:text="F" />
+        <Button
+            android:layout_width="0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.11"
+            android:textSize="@dimen/choice_button_text_size"
+            android:padding="0dp"
+            android:text="G" />
+        <Button
+            android:layout_width="0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.11"
+            android:textSize="@dimen/choice_button_text_size"
+            android:padding="0dp"
+            android:text="H" />
+        
+        <Button
+            android:layout_width="0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.11"
+            android:textSize="@dimen/choice_button_text_size"
+            android:padding="0dp"
+            android:text="I" />
+        <Button
+            android:layout_width="0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.11"
+            android:textSize="@dimen/choice_button_text_size"
+            android:padding="0dp"
+            android:text="J" />
+        <Button
+            android:layout_width="0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.11"
+            android:textSize="@dimen/choice_button_text_size"
+            android:padding="0dp"
+            android:text="K" />
+        <Button
+            android:layout_width="0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.11"
+            android:textSize="@dimen/choice_button_text_size"
+            android:padding="0dp"
+            android:text="L" />
+
+        
+    </LinearLayout>
+    
+    <LinearLayout
+        android:id="@+id/key_buttons_layout3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.2"
+        android:orientation="horizontal" >
+        
+        <Button
+            android:layout_width="0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.11"
+            android:textSize="@dimen/choice_button_text_size"
+            android:padding="0dp"
+            android:text="M" />
+        <Button
+            android:layout_width="0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.11"
+            android:textSize="@dimen/choice_button_text_size"
+            android:padding="0dp"
+            android:text="N" />
+        <Button
+            android:layout_width="0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.11"
+            android:textSize="@dimen/choice_button_text_size"
+            android:padding="0dp"
+            android:text="O" />
+        <Button
+            android:layout_width="0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.11"
+            android:textSize="@dimen/choice_button_text_size"
+            android:padding="0dp"
+            android:text="P" />
+        <Button
+            android:layout_width="0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.11"
+            android:textSize="@dimen/choice_button_text_size"
+            android:padding="0dp"
+            android:text="Q" />
+        <Button
+            android:layout_width="0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.11"
+            android:textSize="@dimen/choice_button_text_size"
+            android:padding="0dp"
+            android:text="R" />
+        <Button
+            android:layout_width="0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.11"
+            android:textSize="@dimen/choice_button_text_size"
+            android:padding="0dp"
+            android:text="S" />
+ 
+        
+    </LinearLayout>
+        <LinearLayout
+        android:id="@+id/key_buttons_layout4"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.2"
+        android:orientation="horizontal" >
+        
+ 
+        <Button
+            android:layout_width="0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.11"
+            android:textSize="@dimen/choice_button_text_size"
+            android:padding="0dp"
+            android:text="T" />
+        <Button
+            android:layout_width="0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.11"
+            android:textSize="@dimen/choice_button_text_size"
+            android:padding="0dp"
+            android:text="U" />
+        <Button
+            android:layout_width="0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.11"
+            android:textSize="@dimen/choice_button_text_size"
+            android:padding="0dp"
+            android:text="V" />
+        <Button
+            android:layout_width="0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.11"
+            android:textSize="@dimen/choice_button_text_size"
+            android:padding="0dp"
+            android:text="W" />
+        <Button
+            android:layout_width="0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.11"
+            android:textSize="@dimen/choice_button_text_size"
+            android:padding="0dp"
+            android:text="X" />
+        <Button
+            android:layout_width="0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.11"
+            android:textSize="@dimen/choice_button_text_size"
+            android:padding="0dp"
+            android:text="Y" />
+        <Button
+            android:layout_width="0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.11"
+            android:textSize="@dimen/choice_button_text_size"
+            android:padding="0dp"
+            android:text="Z" />
+        
+    </LinearLayout>
+        
+</LinearLayout>

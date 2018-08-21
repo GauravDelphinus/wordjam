@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/game_dialog_root_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal"
+    android:padding="10dp" >
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_marginRight="10dp"
+        android:src="@drawable/hint_button" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:text="@string/dialog_game_hints_exhausted_title_text"
+            android:textColor="#FFFFFFFF"
+            android:textSize="@dimen/dialog_title_text_size" />
+
+        <View
+            android:layout_height="10sp"
+            android:layout_width="fill_parent"
+            />
+        
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:text="@string/dialog_game_hints_exhausted_text"
+            android:textColor="#FFFFFFFF"
+            android:textSize="@dimen/dialog_description_text_size" />
+        
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="10sp" />
+        
+
+        
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:text="@string/dialog_game_hints_exhausted_footer_text"
+            android:textColor="#FFFFFFFF"
+            android:textSize="@dimen/dialog_continue_text_size" />
+
+    </LinearLayout>
+</LinearLayout>

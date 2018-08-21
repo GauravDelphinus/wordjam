@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  android:id="@+id/wordlayout"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="horizontal"
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content">
+
+<Button 
+	android:layout_height="wrap_content" 
+	android:id="@+id/game_1_row_button"
+	android:layout_marginTop="6px" 
+	android:layout_width="0px"
+	android:padding="3dip"
+	android:textColor="@color/text_color"
+	android:layout_weight="0.3"
+	android:visibility="gone"
+	>
+	</Button>
+	<Button 
+	android:layout_height="wrap_content" 
+	android:id="@+id/game_2_row_button"
+	android:layout_marginTop="6px" 
+	android:layout_width="0px"
+	android:padding="3dip"
+	android:textColor="@color/text_color"
+	android:layout_weight="0.3"
+	android:visibility="gone"
+	/>
+		<Button 
+	android:layout_height="wrap_content" 
+	android:id="@+id/game_3_row_button"
+	android:layout_marginTop="6px" 
+	android:layout_width="0px"
+	android:padding="3dip"
+	android:textColor="@color/text_color"
+	android:layout_weight="0.3"
+	android:visibility="gone"
+	>
+	</Button>
+    
+</LinearLayout>

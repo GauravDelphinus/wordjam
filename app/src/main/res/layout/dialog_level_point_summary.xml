@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:id="@+id/game_dialog_root_layout"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:padding="10dp"
+              >
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        >
+    	<ImageView
+               android:layout_width="wrap_content"
+               android:layout_height="fill_parent"
+               android:layout_marginRight="10dp"
+               android:src="@drawable/test_result"
+               />
+ 
+        <TextView android:id="@+id/dialog_title"
+            android:text="@string/test_pass_title"
+            	android:textSize="25sp"
+              android:layout_width="wrap_content"
+              android:layout_height="fill_parent"
+              android:textColor="#FFFFFFFF"
+              />
+ 	</LinearLayout>
+ 	
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+
+        >
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0px"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:background="@color/gray_translucent1"
+            >
+            <TextView android:id="@+id/points_remaining_value_text_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="40sp"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center_horizontal"
+                />
+           	<TextView android:id="@+id/points_remaining_description_text_view"
+           	    android:layout_width="wrap_content"
+           	    android:layout_height="wrap_content"
+           	    android:textSize="20sp"
+           	    android:layout_gravity="center_horizontal"
+           	    android:gravity="center_horizontal"
+           	    android:text="@string/points_remaining_description_text"
+           	    
+           	    />
+           	<TextView android:id="@+id/points_earned_text_view"
+           	    android:layout_width="wrap_content"
+           	    android:layout_height="wrap_content"
+           	    android:textSize="20sp"
+           	    android:layout_gravity="center_horizontal"
+				android:gravity="center_horizontal"
+           	    />
+           	    </LinearLayout>
+           	    
+                <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0px"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            >
+            <TextView android:id="@+id/games_remaining_value_text_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center_horizontal"
+                android:textSize="40sp"
+                />
+           	<TextView android:id="@+id/games_remaining_description_text_view"
+           	    android:layout_width="wrap_content"
+           	    android:layout_height="wrap_content"
+           	    android:textSize="20sp"
+           	    android:layout_gravity="center_horizontal"
+           	    android:gravity="center_horizontal"
+           	    android:text="@string/games_remaining_description_text"
+           	    />
+           	<TextView android:id="@+id/games_earned_text_view"
+           	    android:layout_width="wrap_content"
+           	    android:layout_height="wrap_content"
+           	    android:layout_gravity="center_horizontal"
+           	    android:gravity="center_horizontal"
+           	    android:textSize="20sp"
+           	    />
+           	    </LinearLayout>
+ 	</LinearLayout>
+ 	
+     <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        >
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0px"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            >
+            <TextView android:id="@+id/hints_remaining_value_text_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center_horizontal"
+                android:textSize="40sp"
+                />
+           	<TextView android:id="@+id/hints_remaining_description_text_view"
+           	    android:layout_width="wrap_content"
+           	    android:layout_height="wrap_content"
+           	    android:layout_gravity="center_horizontal"
+           	    android:gravity="center_horizontal"
+           	    android:textSize="20sp"
+           	    android:text="@string/hints_remaining_description_text"
+           	    />
+           	<TextView android:id="@+id/hints_used_text_view"
+           	    android:layout_width="wrap_content"
+           	    android:layout_height="wrap_content"
+           	    android:layout_gravity="center_horizontal"
+           	    android:gravity="center_horizontal"
+           	    android:textSize="20sp"
+           	    />
+           	    </LinearLayout>
+           	    
+                <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0px"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            >
+            <TextView android:id="@+id/progress_value_text_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center_horizontal"
+                android:textSize="40sp"
+                />
+           	<TextView android:id="@+id/progress_description_text_view"
+           	    android:layout_width="wrap_content"
+           	    android:layout_height="wrap_content"
+           	    android:textSize="20sp"
+           	    android:layout_gravity="center_horizontal"
+           	    android:gravity="center_horizontal"
+           	    android:text="@string/progress_description_text"
+           	    />
+           	<TextView android:id="@+id/progress_text_view"
+           	    android:layout_width="wrap_content"
+           	    android:layout_height="wrap_content"
+           	    android:layout_gravity="center_horizontal"
+           	    android:gravity="center_horizontal"
+           	    android:textSize="20sp"
+           	    />
+           	    </LinearLayout>
+ 	</LinearLayout>
+ 	
+        <TextView android:id="@+id/footer_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:textSize="30sp"
+            android:text="@string/dialog_level_point_summary_footer_text"
+            />
+
+</LinearLayout>

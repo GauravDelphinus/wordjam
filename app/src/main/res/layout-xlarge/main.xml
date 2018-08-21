@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_gravity="center_vertical"
+    android:gravity="center"
+    android:background="@color/background"
+    android:orientation="vertical"
+    android:padding="5dip" >
+    
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="vertical"
+        >
+           	<ImageView
+      	android:layout_width="wrap_content"
+      	android:layout_height="wrap_content"
+      	android:layout_gravity="center"
+      	android:src="@drawable/ic_logo_wordjam"
+      />
+       <View
+    	android:layout_width="fill_parent"
+    	android:layout_height="10dip"
+    	/>
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="@string/company_label"
+			android:layout_gravity="center"
+			android:textColor="@color/black"
+           />
+       
+<LinearLayout 
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center"
+    android:layout_weight="1"
+    >
+
+    	 <View
+    	android:layout_width="fill_parent"
+    	android:layout_height="50dp"
+    	/>
+    	<ImageButton
+    	android:id="@+id/games_button"
+    	android:src="@drawable/enter_games_button"
+    	android:layout_height="wrap_content"
+    	android:layout_width="wrap_content"
+    	android:layout_gravity="center"
+        android:background="@color/transparent"
+        ></ImageButton>
+
+       <View
+    	android:layout_width="fill_parent"
+    	android:layout_height="50dp"
+    	/>
+    	
+        
+</LinearLayout>
+
+<RelativeLayout
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    >
+    	<ImageButton
+    	android:id="@+id/options_button"
+    	android:layout_height="wrap_content"
+    	android:layout_width="wrap_content"
+    	android:src="@drawable/options_button"
+    	android:background="@color/transparent"
+        ></ImageButton>
+    	
+    	<View
+    	    android:id="@+id/vsep1"
+    	    android:layout_height="10dip"
+    	    android:layout_width="10dip"
+    	    android:layout_toRightOf="@id/options_button"
+    	    />
+    	
+    	   	<ImageButton
+    	android:id="@+id/words_button"
+    	android:layout_height="wrap_content"
+    	android:layout_width="wrap_content"
+    	android:src="@drawable/words_button"
+    	android:background="@color/transparent"
+        android:layout_toRightOf="@id/vsep1"
+        ></ImageButton>
+    	
+    	   	  	<View
+    	    android:id="@+id/vsep2"
+    	    android:layout_height="10dip"
+    	    android:layout_width="10dip"
+    	     android:layout_toRightOf="@id/words_button"
+    	    />
+    	   	  	
+    	<ImageButton
+    	android:id="@+id/about_button"
+    	android:layout_height="wrap_content"
+    	android:layout_width="wrap_content"
+    	android:src="@drawable/about_button"
+    	android:background="@color/transparent"
+         android:layout_toRightOf="@id/vsep2"
+        ></ImageButton>
+    	
+    	    	   	  	<View
+    	    android:id="@+id/vsep3"
+    	    android:layout_height="10dip"
+    	    android:layout_width="10dip"
+    	     android:layout_toRightOf="@id/about_button"
+    	    />
+    	   	  	
+    	<ImageButton
+    	android:id="@+id/exit_button"
+    	android:layout_height="wrap_content"
+    	android:layout_width="wrap_content"
+    	android:src="@drawable/exit_button"
+    	android:background="@color/transparent"
+         android:layout_toRightOf="@id/vsep3"
+        ></ImageButton>
+    
+    </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

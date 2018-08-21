@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:id="@+id/game_dialog_root_layout"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:padding="10dp"
+              >
+       <LinearLayout
+                  android:orientation="horizontal"
+                  android:layout_width="fill_parent"
+                  android:layout_height="wrap_content"
+                  >
+    		<ImageView 
+               android:layout_width="wrap_content"
+               android:layout_height="fill_parent"
+               android:layout_marginRight="10dp"
+               android:src="@drawable/hint_normal"
+               />
+
+		        <TextView
+		            android:text="@string/dialog_level_resume_game_title_text"
+		            	android:textSize="25sp"
+		              android:layout_width="wrap_content"
+		              android:layout_height="wrap_content"
+		              android:textColor="#FFFFFFFF"
+		              />
+        	</LinearLayout>
+
+        <View
+            android:layout_height="10sp"
+            android:layout_width="fill_parent"
+            />
+            <TextView
+        android:text="@string/dialog_level_resume_game_text"
+        	android:textSize="15sp"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:textColor="#FFFFFFFF"
+              />
+    <TextView
+        android:text="@string/dialog_level_resume_game_footer_text"
+        	android:textSize="15sp"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:textColor="#FFFFFFFF"
+              />
+
+</LinearLayout>
